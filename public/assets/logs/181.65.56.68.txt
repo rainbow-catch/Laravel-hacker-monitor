@@ -1,0 +1,46 @@
+
+Local Time:   Tue Oct 25 10:41:35 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Wed Oct 26 09:15:26 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Wed Oct 26 09:20:01 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:26:05 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:26:06 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:26:06 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:28:36 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:28:36 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------
+Local Time:   Mon Oct 31 11:28:37 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2021\acad.exe
+HardwareID:     89293783-638C5EA6-A6B7F181-4F082DEF
+---------------------------------------------------

@@ -1,0 +1,11 @@
+
+Local Time:   Sat Nov 05 23:03:33 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     88593D89-638C5EA6-DFA6E5EA-2964478A
+---------------------------------------------------
+Local Time:   Sat Nov 05 23:20:35 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     88593D89-638C5EA6-DFA6E5EA-2964478A
+---------------------------------------------------

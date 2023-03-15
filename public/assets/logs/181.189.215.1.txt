@@ -1,0 +1,6 @@
+
+Local Time:   Sun Oct 30 19:04:38 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Usuario\Desktop\Programas\Juegos\Windows.exe
+HardwareID:     CE0E69D7-759B3CB0-AFC4F7F2-3B7957FD
+---------------------------------------------------

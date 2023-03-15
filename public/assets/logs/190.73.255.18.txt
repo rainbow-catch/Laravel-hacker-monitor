@@ -1,0 +1,41 @@
+
+Local Time:   Wed Oct 19 23:02:18 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Thu Oct 20 13:06:32 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Thu Oct 20 21:08:44 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Sat Oct 22 12:56:03 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Sat Oct 22 12:56:50 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Tue Oct 25 09:35:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Tue Oct 25 19:31:14 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------
+Local Time:   Wed Oct 26 19:51:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E52B4DFA-6EE829A6-BCC7869D-4C044289
+---------------------------------------------------

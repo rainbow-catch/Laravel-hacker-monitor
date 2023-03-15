@@ -1,0 +1,13 @@
+
+Local Time:   Sun Oct 23 22:40:23 2022
+Hack Detect:    Memory change
+HardwareID:     EB5D4BF6-6EE829A6-DCC5869D-367F20E2
+---------------------------------------------------
+Local Time:   Sun Oct 23 22:44:02 2022
+Hack Detect:    Memory change
+HardwareID:     EB5D4BF6-6EE829A6-DCC5869D-367F20E2
+---------------------------------------------------
+Local Time:   Sun Oct 23 22:44:39 2022
+Hack Detect:    Memory change
+HardwareID:     EB5D4BF6-6EE829A6-DCC5869D-367F20E2
+---------------------------------------------------

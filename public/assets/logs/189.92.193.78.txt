@@ -1,0 +1,40 @@
+
+Local Time:   Fri Oct 28 23:07:59 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Fri Oct 28 23:31:53 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\junio\OneDrive\Área de Trabalho\Nova pasta\main.exe
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Fri Oct 28 23:36:01 2022
+Hack Detect:    Memory change
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Fri Oct 28 23:36:58 2022
+Hack Detect:    Memory change
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Fri Oct 28 23:42:49 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\junio\OneDrive\Área de Trabalho\Nova pasta\main.exe
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Sat Oct 29 00:02:02 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Sat Oct 29 00:03:01 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Sat Oct 29 00:06:23 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------
+Local Time:   Sat Oct 29 09:45:09 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\junio\OneDrive\Área de Trabalho\Nova pasta\main.exe
+HardwareID:     E44B24E5-769D4ED9-DAB59AFC-4F63278B
+---------------------------------------------------

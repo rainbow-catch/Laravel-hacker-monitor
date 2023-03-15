@@ -1,0 +1,51 @@
+
+Local Time:   Thu Sep 29 19:36:54 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Thu Sep 29 19:41:57 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Thu Sep 29 19:46:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Fri Sep 30 19:44:39 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Sun Oct 02 19:20:49 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Sun Oct 02 20:48:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Mon Oct 03 19:36:23 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Tue Oct 04 19:55:48 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Tue Oct 04 20:05:01 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------
+Local Time:   Wed Oct 05 02:04:27 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\CCleaner\CCleaner64.exe
+HardwareID:     9B2D2D98-13E65EA6-DBB7F088-360F5EF3
+---------------------------------------------------

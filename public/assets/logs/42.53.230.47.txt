@@ -1,0 +1,9 @@
+
+Local Time:   Tue Jan 17 23:09:15 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Windows\System32\svchost.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai2
+Character:      Ä§Ìì
+---------------------------------------------------

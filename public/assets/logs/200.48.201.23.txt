@@ -1,0 +1,11 @@
+
+Local Time:   Sun Oct 23 13:26:08 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      ?
+HardwareID:     FC3E59E2-43AC7E86-E387C3CD-7B3B14BD
+---------------------------------------------------
+Local Time:   Sun Oct 23 13:26:58 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Instaladores\Pc\magia2\panda\panda.exe
+HardwareID:     FC3E59E2-43AC7E86-E387C3CD-7B3B14BD
+---------------------------------------------------

@@ -1,0 +1,21 @@
+
+Local Time:   Wed Nov 02 08:00:08 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Patineta PE\Salem\Salem.exe
+HardwareID:     CB0F68D0-7A954BC3-D9C5878C-7D3C15BB
+---------------------------------------------------
+Local Time:   Wed Nov 02 08:00:09 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Patineta PE\Salem\Salem.exe
+HardwareID:     CB0F68D0-7A954BC3-D9C5878C-7D3C15BB
+---------------------------------------------------
+Local Time:   Wed Nov 02 08:00:09 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Patineta PE\Salem\Salem.exe
+HardwareID:     CB0F68D0-7A954BC3-D9C5878C-7D3C15BB
+---------------------------------------------------
+Local Time:   Wed Nov 02 08:00:09 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Patineta PE\Salem\Salem.exe
+HardwareID:     CB0F68D0-7A954BC3-D9C5878C-7D3C15BB
+---------------------------------------------------

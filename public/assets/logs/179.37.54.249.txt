@@ -1,0 +1,6 @@
+
+Local Time:   Thu Nov 10 17:05:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      D:\MB\mbam.exe
+HardwareID:     CB0C61D3-74984FC3-D9C4FDF8-7D3C15BB
+---------------------------------------------------

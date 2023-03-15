@@ -1,0 +1,11 @@
+
+Local Time:   Tue Oct 25 20:07:42 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\Mauri\Downloads\Cliente Mu CELTAS S6 Classic\Main.exe
+HardwareID:     8F582B85-638C5EA6-D8A6E5EA-36722783
+---------------------------------------------------
+Local Time:   Wed Oct 26 21:30:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files (x86)\NinjaTrader 8\bin64\NinjaTrader.exe
+HardwareID:     8F582B85-638C5EA6-D8A6E5EA-36722783
+---------------------------------------------------

@@ -1,0 +1,9 @@
+
+Local Time:   Sun Nov 06 08:18:07 2022
+Hack Detect:    Suspicious programs
+Full Path:      C:\Program Files\Autodesk\AutoCAD 2019\acad.exe
+HardwareID:     9D4A29AD-73F31BE8-EAB6F5FA-7D3C15BB
+HardwareID v2:  VKZ^YZ7WU<XLM:N
+Account:        mars1
+Character:      SAra
+---------------------------------------------------

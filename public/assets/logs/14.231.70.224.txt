@@ -1,0 +1,11 @@
+
+Local Time:   Tue Nov 01 20:52:09 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe
+HardwareID:     CC0F68DB-7B944CB7-D2B7F7FA-7D3C1588
+---------------------------------------------------
+Local Time:   Tue Nov 01 20:52:09 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe
+HardwareID:     CC0F68DB-7B944CB7-D2B7F7FA-7D3C1588
+---------------------------------------------------

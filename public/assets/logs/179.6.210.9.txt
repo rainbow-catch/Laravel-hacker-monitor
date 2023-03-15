@@ -1,0 +1,41 @@
+
+Local Time:   Tue Oct 25 14:31:12 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Tue Oct 25 17:29:36 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\RUBEN\Desktop\Cliente MuRio Oficial\Cliente RioMu\Main.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Thu Oct 27 10:45:55 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Sun Oct 30 13:41:58 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\STEAM\bin\cef\cef.win7x64\steamwebhelper.exe
+HardwareID:     BD0968B1-109C3FCC-D8B2F68B-7D3C2589
+---------------------------------------------------
+Local Time:   Sun Oct 30 13:41:59 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\STEAM\bin\cef\cef.win7x64\steamwebhelper.exe
+HardwareID:     BD0968B1-109C3FCC-D8B2F68B-7D3C2589
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:32:57 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\STEAM\bin\cef\cef.win7x64\steamwebhelper.exe
+HardwareID:     BD0968B1-109C3FCC-D8B2F68B-7D3C2589
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:32:58 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\STEAM\bin\cef\cef.win7x64\steamwebhelper.exe
+HardwareID:     BD0968B1-109C3FCC-D8B2F68B-7D3C2589
+---------------------------------------------------
+Local Time:   Mon Oct 31 18:00:55 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files\Google\Chrome\Application\chrome.exe
+HardwareID:     BD0968B1-109C3FCC-D8B2F68B-7D3C2589
+---------------------------------------------------

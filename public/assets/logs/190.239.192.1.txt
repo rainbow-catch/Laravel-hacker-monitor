@@ -1,0 +1,56 @@
+
+Local Time:   Tue Oct 18 20:59:11 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Mu Online.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Tue Oct 18 21:02:34 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Matias-Mu evis-Forza\Matias-Mu evis-Forza.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Tue Oct 18 21:02:36 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Matias-Mu evis-Forza\Matias-Mu evis-Forza.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Tue Oct 18 21:05:58 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Mu Online.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Wed Oct 19 12:55:14 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Mu Online.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Wed Oct 19 14:44:58 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Mu Online.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Wed Oct 19 14:47:22 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\subli\Downloads\Matias-Mu evis-Forza\Matias-Mu evis-Forza.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Thu Oct 20 20:48:27 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files\Google\Chrome\Application\chrome.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Thu Oct 20 20:49:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files\Google\Chrome\Application\chrome.exe
+HardwareID:     CE0E69D7-749B3CB0-DEB3F7F2-4A0A2789
+---------------------------------------------------
+Local Time:   Thu Oct 27 15:50:44 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      ?
+HardwareID:     8E4B2FF2-6EE829A6-DCC5869D-336C27E2
+---------------------------------------------------
+Local Time:   Thu Oct 27 18:26:30 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\360\Total Security\safemon\QHSafeTray.exe
+HardwareID:     8E4B2FF2-6EE829A6-DCC5869D-336C27E2
+---------------------------------------------------

@@ -1,0 +1,6 @@
+
+Local Time:   Fri Oct 28 08:40:04 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\DFX\dfx.exe
+HardwareID:     8F584895-638C5EA6-B0A6E5EA-4C0B5882
+---------------------------------------------------

@@ -1,0 +1,6 @@
+
+Local Time:   Mon Nov 07 14:14:14 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     EB2E4EF4-638C5EA6-CAA6E5EA-387F2CE1
+---------------------------------------------------

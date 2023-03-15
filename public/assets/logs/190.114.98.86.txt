@@ -1,0 +1,6 @@
+
+Local Time:   Tue Nov 08 10:14:05 2022
+Hack Detect:    Suspicious programs 
+Full Path:      D:\Program Files\SoftEther VPN Client\vpncmgr_x64.exe
+HardwareID:     9D294891-10ED47CC-DFB1F5FC-5D1C2782
+---------------------------------------------------

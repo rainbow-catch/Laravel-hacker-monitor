@@ -1,0 +1,21 @@
+
+Local Time:   Mon Oct 17 10:19:53 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Admin\Desktop\Free.exe\Free.exe
+HardwareID:     933E59E2-40D90DE1-EAF3A2A5-7D537AB8
+---------------------------------------------------
+Local Time:   Mon Oct 17 10:50:43 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Admin\Desktop\DeadZoneMU - Full Client\DeadZoneMU - Full Client\Launcher.exe
+HardwareID:     933E59E2-40D90DE1-EAF3A2A5-7D537AB8
+---------------------------------------------------
+Local Time:   Mon Oct 17 21:38:31 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Admin\Downloads\MuExcilent.Com Up2\Launcher.exe
+HardwareID:     933E59E2-40D90DE1-EAF3A2A5-7D537AB8
+---------------------------------------------------
+Local Time:   Mon Oct 17 22:08:08 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Admin\Desktop\KINGMUV2.0\Free.exe\Free.exe
+HardwareID:     933E59E2-40D90DE1-EAF3A2A5-7D537AB8
+---------------------------------------------------

@@ -1,0 +1,37 @@
+
+Local Time:   Fri Oct 28 20:35:36 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:37:19 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:47:01 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:47:35 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:47:49 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Fri Oct 28 21:01:30 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Sat Oct 29 21:55:39 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Sat Oct 29 21:55:45 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------
+Local Time:   Sat Oct 29 21:55:50 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     F63E5FE5-4FAC7C86-EF80C1CB-7F3A10BD
+---------------------------------------------------

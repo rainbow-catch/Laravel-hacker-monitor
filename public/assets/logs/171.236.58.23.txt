@@ -1,0 +1,9 @@
+
+Local Time:   Sat Oct 29 14:33:41 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-759B3CB0-AEC0F6F2-397F50FF
+---------------------------------------------------
+Local Time:   Sat Oct 29 14:34:28 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-759B3CB0-AEC0F6F2-397F50FF
+---------------------------------------------------

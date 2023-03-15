@@ -1,0 +1,253 @@
+
+Local Time:   Fri Sep 02 16:42:24 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 17:58:13 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 17:58:28 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 17:58:51 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 17:59:02 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 17:59:41 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 18:00:04 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 20:01:52 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 20:02:38 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 02 20:17:51 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files\WinRAR\WinRAR.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sat Sep 03 13:11:03 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sat Sep 03 13:17:45 2022
+Hack Detect:    Suspicious programs 
+Full Path:      D:\Users\Leonard\Desktop\Plugin - GS\MuServer1.2c\MuServer1.2c\MuMaker\MuMaker.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sat Sep 03 13:26:19 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\Leonard\Desktop\Curso CSS\Xor_Administrative_Secure\Xor_Administrative.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sat Sep 03 13:53:48 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sat Sep 03 19:04:19 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files (x86)\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sun Sep 04 00:06:31 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sun Sep 04 18:27:12 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sun Sep 04 22:09:15 2022
+Hack Detect:    Suspicious programs 
+Full Path:      D:\Users\Leonard\Downloads\!xSpeed\!xSpeed\!xSpeed.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 19:27:46 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      D:\Users\Leonard\Downloads\!xSpeed\!xSpeed\!xSpeed.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 19:30:59 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\Curso CSS\Xor_Administrative_Secure\Xor_Administrative.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 19:48:07 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\Curso CSS\Xor_Administrative_Secure\Xor_Administrative.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 19:49:52 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\Curso CSS\Xor_Administrative_Secure\Xor_Administrative.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 20:48:16 2022
+Hack Detect:    Suspended process
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Sep 05 23:14:23 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Tue Sep 06 22:13:55 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\Leonard\Downloads\RESOUR,HACKSXDAMAGE,PROCCESHACK\BYPASS\CT\Colosal.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:25:44 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:42:03 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Downloads\RESOUR,HACKSXDAMAGE,PROCCESHACK\BYPASS\Pian.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:43:27 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:46:42 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:48:11 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 07 13:48:30 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Thu Sep 08 08:28:25 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Fri Sep 09 20:56:03 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 14 17:48:20 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Sep 14 17:48:20 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Leonard\Desktop\GenMuGamer_1.02i\GenMuGamer_1.02i.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Oct 05 14:29:34 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\MilkShape 3D 1.8.5\ms3d.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Sun Oct 09 21:59:10 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\MilkShape 3D 1.8.5\ms3d.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Oct 26 18:04:55 2022
+Hack Detect:    Valkyria 7
+Full Path:      C:\Users\Leonard\AppData\Local\IE Tab\15.10.11.1\ietabhelper.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Oct 26 18:04:56 2022
+Hack Detect:    Valkyria 7
+Full Path:      C:\Users\Leonard\AppData\Local\IE Tab\15.10.11.1\ietabhelper.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Wed Oct 26 18:32:15 2022
+Hack Detect:    Valkyria 7
+Full Path:      C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Oct 31 12:14:56 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Users\Leonard\Desktop\31082022\MU Online S6E3\Launcher.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+---------------------------------------------------
+Local Time:   Mon Oct 31 19:09:03 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        
+Character:      ¸È∏µÛFÖe]
+---------------------------------------------------
+Local Time:   Mon Oct 31 19:14:17 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        gega
+Character:      f]$}UU*‹"r
+---------------------------------------------------
+Local Time:   Mon Oct 31 19:32:11 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        gega
+Character:      
+---------------------------------------------------
+Local Time:   Mon Oct 31 19:36:35 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        gega
+Character:      @≠@≠
+---------------------------------------------------
+Local Time:   Mon Oct 31 19:43:57 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        gega
+Character:      &®Å˛ˇˇˇ∏˚}NO]U^YZ7Y^\=`BA
+---------------------------------------------------
+Local Time:   Mon Oct 31 20:00:47 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      D:\Program Files\Cheat Engine 7.2\cheatengine-x86_64-SSE4-AVX2.exe
+HardwareID:     E43958E3-759B3CD9-D2B29AF2-3F63228D
+HardwareID v2:  NO]U^YZ7Y^\=`BA
+Account:        gega
+Character:      
+---------------------------------------------------

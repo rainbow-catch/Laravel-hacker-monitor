@@ -1,0 +1,9 @@
+
+Local Time:       Sun Oct 30 00:16:12 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         933E59E2-30AB7EEE-EA8EABA5-745B7ABB
+---------------------------------------------------
+Local Time:       Sun Oct 30 01:10:58 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         933E59E2-30AB7EEE-EA8EABA5-745B7ABB
+---------------------------------------------------

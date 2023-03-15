@@ -1,0 +1,41 @@
+
+Local Time:   Thu Nov 03 10:15:59 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+HardwareID v2:  NO]U^YZ7PU]OK;^
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 10:16:36 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+HardwareID v2:  NO]U^YZ7PU]OK;^
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 10:18:39 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+HardwareID v2:  NO]U^YZ7PU]OK;^
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 10:18:58 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+HardwareID v2:  NO]U^YZ7PU]OK;^
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 10:38:30 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+---------------------------------------------------
+Local Time:   Thu Nov 03 11:15:36 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     855C2387-638C5EA6-CAA6E5EA-3E6A438D
+---------------------------------------------------

@@ -1,0 +1,9 @@
+
+Local Time:   Tue Nov 01 13:23:08 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Marc\Desktop\001 - Buenos Aires Mu!\1 - BuenosAiresMuS6 [BetaTest v11]\Google Chrome.exe
+HardwareID:     CE0E69D7-709B3CB0-ABB4F5F2-4F0957F9
+HardwareID v2:  NO]U^YZ7V<]@X@>
+Account:        
+Character:      
+---------------------------------------------------

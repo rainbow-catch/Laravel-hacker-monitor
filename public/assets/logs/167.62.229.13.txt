@@ -1,0 +1,40 @@
+
+Local Time:   Tue Sep 27 14:24:11 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      D:\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\sdasd.exe
+HardwareID:     EC2C4CF2-749B48C4-D8C3FDFE-387D21FD
+---------------------------------------------------
+Local Time:   Tue Sep 27 14:48:08 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      D:\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\sdasd.exe
+HardwareID:     EC2C4CF2-749B48C4-D8C3FDFE-387D21FD
+---------------------------------------------------
+Local Time:   Sat Oct 15 10:56:37 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\cualq\Desktop\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\Launcher.exe
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 15 10:57:32 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\cualq\Desktop\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\Launcher.exe
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 15 10:58:35 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\cualq\Desktop\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\Launcher.exe
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 17 19:28:32 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\cualq\Desktop\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\Launcher.exe
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 27 20:45:11 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\cualq\Desktop\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\main.exe
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------
+Local Time:   Tue Nov 01 20:17:47 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CC0F60D3-74984BB1-DCB6F1FE-7D3C15BB
+---------------------------------------------------

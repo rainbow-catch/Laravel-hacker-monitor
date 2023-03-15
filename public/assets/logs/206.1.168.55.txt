@@ -1,0 +1,13 @@
+
+Local Time:       Sat Oct 29 12:57:09 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EC2F48F6-6EE829A6-B3C7889D-4A0543EE
+---------------------------------------------------
+Local Time:       Wed Nov 09 20:42:25 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EC2F48F6-6EE829A6-B3C7889D-4A0543EE
+---------------------------------------------------
+Local Time:       Wed Nov 09 20:47:11 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EC2F48F6-6EE829A6-B3C7889D-4A0543EE
+---------------------------------------------------

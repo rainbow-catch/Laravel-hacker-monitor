@@ -1,0 +1,17 @@
+
+Local Time:   Sat Nov 05 19:37:24 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      D:\Matias-Mu evis-Forza.exe
+HardwareID:     8F5835F6-638C5EA6-D9A6E5EA-3570268B
+HardwareID v2:  NO]U^YZ7\<ZV^OW
+Account:        deniska1
+Character:      IceLady
+---------------------------------------------------
+Local Time:   Sat Nov 05 19:37:26 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      D:\Matias-Mu evis-Forza.exe
+HardwareID:     8F5835F6-638C5EA6-D9A6E5EA-3570268B
+HardwareID v2:  NO]U^YZ7\<ZV^OW
+Account:        deniska
+Character:      Ex1T
+---------------------------------------------------

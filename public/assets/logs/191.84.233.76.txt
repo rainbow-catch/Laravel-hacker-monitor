@@ -1,0 +1,25 @@
+
+Local Time:   Tue Nov 01 15:53:29 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Pedro\Desktop\SERVER\test\Code Enigma.exe
+HardwareID:     933F59E2-4AAB7AEF-9E81DBA5-7D267AB2
+HardwareID v2:  NO]U^YZ7<PULVY\
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 01 15:54:16 2022
+Hack Detect:    Hack detected by TitanScan Engine
+Full Path:      C:\Users\Pedro\Desktop\SERVER\test\Chetigma.exe
+HardwareID:     933F59E2-4AAB7AEF-9E81DBA5-7D267AB2
+HardwareID v2:  NO]U^YZ7<PULVY\
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Nov 09 23:23:17 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Pedro\Desktop\SERVER\test\Code Enigma.exe
+HardwareID:     933F59E2-4AAB7AEF-9E81DBA5-7D267AB2
+HardwareID v2:  NO]U^YZ7<PULVY\
+Account:        test
+Character:      2312a
+---------------------------------------------------

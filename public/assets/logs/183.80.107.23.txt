@@ -1,0 +1,17 @@
+
+Local Time:   Wed Nov 09 21:08:24 2022
+Hack Detect:    Suspicious programs
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     CE0E69D7-719B3CB0-D8B6FDFD-3E0B5682
+HardwareID v2:  NO]U^YZ7V[`MY=;
+Account:        vdloan1
+Character:      Hercule
+---------------------------------------------------
+Local Time:   Wed Nov 09 21:08:25 2022
+Hack Detect:    Suspicious programs
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     CE0E69D7-719B3CB0-D8B6FDFD-3E0B5682
+HardwareID v2:  NO]U^YZ7V[`MY=;
+Account:        vdloan
+Character:      MGDame
+---------------------------------------------------

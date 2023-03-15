@@ -1,0 +1,26 @@
+
+Local Time:   Fri Oct 07 01:41:51 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Osher\Desktop\האקר\wpe_0delay.exe
+HardwareID:     CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Oct 07 23:38:06 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Osher\Desktop\האקר\wpe_0delay.exe
+HardwareID:     CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 08 18:28:39 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Users\orlyr\OneDrive\Desktop\Combat Arms\VFUNLauncher.exe
+HardwareID:     EC2F4FFA-70FF5EA6-ABCCF1FB-4A7E538B
+---------------------------------------------------
+Local Time:   Sat Oct 08 18:30:13 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Users\orlyr\OneDrive\Desktop\Combat Arms\VFUNLauncher.exe
+HardwareID:     EC2F4FFA-70FF5EA6-ABCCF1FB-4A7E538B
+---------------------------------------------------
+Local Time:   Sat Oct 08 18:31:55 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Users\orlyr\OneDrive\Desktop\Combat Arms\VFUNLauncher.exe
+HardwareID:     EC2F4FFA-70FF5EA6-ABCCF1FB-4A7E538B
+---------------------------------------------------

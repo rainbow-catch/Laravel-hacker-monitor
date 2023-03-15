@@ -1,0 +1,49 @@
+
+Local Time:   Sat Nov 05 19:24:54 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 19:25:23 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 19:26:01 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 19:26:37 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 19:27:08 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:11:37 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     AB706BB1-019C4BCC-DAB4F7FD-7D3C2C8E
+HardwareID v2:  NO]U^YZ7UL]@ZCZ
+Account:        
+Character:      
+---------------------------------------------------

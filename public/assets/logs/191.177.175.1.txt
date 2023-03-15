@@ -1,0 +1,9 @@
+
+Local Time:   Sat Nov 05 19:23:24 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     C90F69D0-7B982AB5-D8B7F7FE-7D3C15BB
+HardwareID v2:  TOPPO\]YX7ZM
+Account:        jeffdl
+Character:      IamSorry
+---------------------------------------------------

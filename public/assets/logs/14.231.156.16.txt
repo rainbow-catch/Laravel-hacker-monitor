@@ -1,0 +1,107 @@
+
+Local Time:   Wed Sep 28 12:19:55 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:29:08 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:29:24 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:32:38 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:34:00 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:36:18 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:37:28 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:39:30 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:42:33 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:44:00 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:44:20 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:45:18 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 12:46:39 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     D10E68D3-72ED26C0-ACB5FDFA-7D3C238F
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:00:32 2022
+Hack Detect:    Memory change
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:34:08 2022
+Hack Detect:    Suspicious programs 
+Full Path:      ?
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:35:06 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:35:31 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:38:28 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:38:46 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:39:10 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:39:47 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:41:44 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------
+Local Time:   Wed Sep 28 14:46:43 2022
+Hack Detect:    PcHunter | ProcessHack | PYArkClient 
+HardwareID:     F8455594-719B49B6-AFBEF3FB-4C0D258B
+---------------------------------------------------

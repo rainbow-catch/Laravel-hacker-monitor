@@ -1,0 +1,9 @@
+
+Local Time:   Wed Nov 09 11:10:57 2022
+Hack Detect:    Suspicious programs
+Full Path:      ?
+HardwareID:     9A2E2097-6EE829A6-DCC5869D-2E7225E1
+HardwareID v2:  KN7ZM
+Account:        votam9678
+Character:      ThanGio
+---------------------------------------------------

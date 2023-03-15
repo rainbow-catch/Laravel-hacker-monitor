@@ -1,0 +1,9 @@
+
+Local Time:   Thu Nov 10 17:29:31 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      F:\000_NOXIUSMU\00_NoxiusMu - S6.17\01_MAIN_INFO v32 - Season 6.17\MAIN_INFO\Google Chrome.exe
+HardwareID:     9954338A-6EE829A6-DEC5869D-2E7621F6
+HardwareID v2:  NO]U^YZ7[^W=`BN
+Account:        
+Character:      
+---------------------------------------------------

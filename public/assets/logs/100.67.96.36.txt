@@ -1,0 +1,34 @@
+
+Local Time:   Mon Oct 31 14:13:22 2022
+Hack Detect:    Memory change
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 14:52:22 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\DELL\Desktop\Mu Online.exe
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 14:54:06 2022
+Hack Detect:    Suspicious programs 
+Full Path:      ?
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 14:59:04 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:00:09 2022
+Hack Detect:    Suspicious programs 
+Full Path:      ?
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:10:59 2022
+Hack Detect:    Suspicious programs 
+Full Path:      g
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:27:31 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      H:\backupC\Downloads\ben10\NamCu?ng\NamCuong.exe
+HardwareID:     EE2E49F7-759B3CB0-D2B1F7F2-3B7A548A
+---------------------------------------------------

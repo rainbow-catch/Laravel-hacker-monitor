@@ -1,0 +1,9 @@
+
+Local Time:   Sun Feb 26 09:03:24 2023
+Hack Detect:    thread manipulation attempt [Kill or Suspend] v2
+Full Path:      
+HardwareID:     CE0A69D0-73943AC5-D3BFF5FB-7D3C15BB
+HardwareID v2:  NO]U^YZ7;PVRYUP
+Account:        esteban33
+Character:      Mefisto
+---------------------------------------------------

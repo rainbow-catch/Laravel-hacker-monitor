@@ -1,0 +1,14 @@
+
+Local Time:   Sun Oct 23 10:17:52 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-749B3CB0-DDC7F7F2-3908228E
+---------------------------------------------------
+Local Time:   Mon Oct 24 04:21:09 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Users\ferna\OneDrive\Área de Trabalho\trabalho\LifeSea.exe
+HardwareID:     CC0B0D83-73F832B6-DBABF7F9-490D2CFE
+---------------------------------------------------
+Local Time:   Mon Oct 24 08:31:17 2022
+Hack Detect:    Memory change
+HardwareID:     A86D1EAA-089B24AB-EAB6F5FF-7D3C15BB
+---------------------------------------------------

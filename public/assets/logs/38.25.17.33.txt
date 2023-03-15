@@ -1,0 +1,57 @@
+
+Local Time:   Tue Oct 25 14:31:12 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Tue Oct 25 17:29:36 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\RUBEN\Desktop\Cliente MuRio Oficial\Cliente RioMu\Main.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Thu Oct 27 10:45:55 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Sat Oct 29 16:49:25 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 17:04:59 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      E:\Clientes de Mu\Cliente RioMu\Main.exe
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 19:18:39 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 19:20:03 2022
+Hack Detect:    Suspicious programs 
+Full Path:      E:\Clientes de Mu\Cliente RioMu\Main.exe
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 19:24:38 2022
+Hack Detect:    Suspicious programs 
+Full Path:      E:\Clientes de Mu\Cliente RioMu\Main.exe
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 21:31:30 2022
+Hack Detect:    Suspicious programs 
+Full Path:      E:\Clientes de Mu\Cliente RioMu\Main.exe
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:27:00 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:27:50 2022
+Hack Detect:    Memory change
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:28:15 2022
+Hack Detect:    Suspicious programs 
+Full Path:      E:\Clientes de Mu\Cliente RioMu\Main.exe
+HardwareID:     CE0E69D7-749B3CB0-DDB6F6FC-4578248F
+---------------------------------------------------

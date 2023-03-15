@@ -1,0 +1,5 @@
+
+Local Time:       Tue Nov 08 09:58:13 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         E74A5D96-7B944DD9-DBB79AF3-4E6320F9
+---------------------------------------------------

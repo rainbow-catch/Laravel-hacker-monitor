@@ -1,0 +1,17 @@
+
+Local Time:   Thu Nov 03 03:09:12 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     9254378A-638C5EA6-CAA6E5EA-4D7951E1
+---------------------------------------------------
+Local Time:   Thu Nov 03 03:54:06 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     9254378A-638C5EA6-CAA6E5EA-4D7951E1
+---------------------------------------------------
+Local Time:   Thu Nov 03 04:26:48 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     9254378A-638C5EA6-CAA6E5EA-4D7951E1
+---------------------------------------------------
+Local Time:   Thu Nov 03 21:05:59 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     9254378A-638C5EA6-CAA6E5EA-4D7951E1
+---------------------------------------------------

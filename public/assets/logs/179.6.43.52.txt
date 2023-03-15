@@ -1,0 +1,193 @@
+
+Local Time:   Mon Jan 02 19:45:00 2023
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Ricardo\Desktop\Cliente_Mu\Google Chrome.exe
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Mon Jan 02 20:02:42 2023
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        admin
+Character:      admin
+---------------------------------------------------
+Local Time:   Mon Jan 02 20:15:57 2023
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Ricardo\Desktop\Cliente_Mu\Google Chrome.exe
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Mon Jan 02 20:15:58 2023
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Ricardo\Desktop\Cliente_Mu\Google Chrome.exe
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        admin
+Character:      admin
+---------------------------------------------------
+Local Time:   Mon Jan 02 20:42:24 2023
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Ricardo\AppData\Local\Discord\app-1.0.9008\Discord.exe
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        admin
+Character:      admin
+---------------------------------------------------
+Local Time:   Wed Jan 18 09:12:06 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Jan 18 09:36:19 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        admin
+Character:      Admin
+---------------------------------------------------
+Local Time:   Wed Jan 18 09:39:46 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Jan 18 09:46:49 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      magic2
+---------------------------------------------------
+Local Time:   Wed Jan 18 10:26:43 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Jan 18 10:39:45 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      dark2
+---------------------------------------------------
+Local Time:   Wed Jan 18 10:56:08 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Jan 18 11:03:51 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Wed Jan 18 14:26:08 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        1
+Character:      mago
+---------------------------------------------------
+Local Time:   Wed Jan 18 14:26:08 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Users\NOC3\Documents\ARCHIVOS NOC\winbox.exe
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      elfa2
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:53 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        1
+Character:      summon
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:53 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        1
+Character:      summon
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:53 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        1
+Character:      summon
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:59 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      summon2
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:59 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      summon2
+---------------------------------------------------
+Local Time:   Thu Jan 26 14:04:59 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     EB3E5AE4-779B3FD9-DAB39AF2-4D63258B
+HardwareID v2:  XYM
+Account:        2
+Character:      summon2
+---------------------------------------------------
+Local Time:   Sun Feb 12 00:48:02 2023
+Hack Detect:    thread manipulation attempt [Kill or Suspend v2]
+Full Path:      
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sun Feb 12 00:48:51 2023
+Hack Detect:    thread manipulation attempt [Kill or Suspend v2]
+Full Path:      
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sun Feb 12 00:50:06 2023
+Hack Detect:    thread manipulation attempt [Kill or Suspend v2]
+Full Path:      
+HardwareID:     E7345CE3-76944DD9-DBB49A8B-4D63278F
+HardwareID v2:  NO]U^YZ7<[K?YB>
+Account:        
+Character:      
+---------------------------------------------------

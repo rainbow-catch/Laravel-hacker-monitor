@@ -1,0 +1,125 @@
+
+Local Time:   Sat Nov 05 13:22:54 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 13:23:26 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sat Nov 05 13:29:06 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Nicolas\Desktop\AMBITION\Mu AMBITION S6 e3\Google Chrome.exe
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Mon Nov 07 23:21:41 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+---------------------------------------------------
+Local Time:   Thu Nov 10 16:46:11 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:07:51 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:15:20 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:19:37 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:28:22 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:28:27 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:32:34 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:36:04 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:39:53 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:45:17 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:50:39 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:56:57 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     88483CF1-6EE829A6-DCC5869D-2E6A24E2
+HardwareID v2:  NO]U^YZ7^@S`@N?
+Account:        Paturuzu
+Character:      KIKIKI
+---------------------------------------------------

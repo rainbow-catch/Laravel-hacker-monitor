@@ -1,0 +1,36 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Wed Oct 19 23:43:19 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------
+Local Time:   Wed Oct 19 23:46:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------
+Local Time:   Wed Oct 19 23:50:22 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------
+Local Time:   Tue Oct 25 21:11:54 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------
+Local Time:   Tue Oct 25 21:11:54 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------
+Local Time:   Tue Oct 25 21:11:55 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Program Files (x86)\BASTION MU v2\Main.exe
+HardwareID:     915A318C-15FC5EA6-DBB2F78F-2E6926E1
+---------------------------------------------------

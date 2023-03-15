@@ -1,0 +1,6 @@
+
+Local Time:   Fri Oct 28 05:16:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\mspaint.exe
+HardwareID:     922F208E-6EE829A6-DCC5869D-2B7622E2
+---------------------------------------------------

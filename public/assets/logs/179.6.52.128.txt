@@ -1,0 +1,13 @@
+
+Local Time:   Thu Nov 03 11:23:27 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     CE0E69D7-759B3CB0-DAB7F1F2-4F7A27F8
+---------------------------------------------------
+Local Time:   Sat Nov 05 18:04:18 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     CE0E69D7-759B3CB0-DAB7F1F2-4F7A27F8
+HardwareID v2:  V_S]
+Account:        luch3x0013
+Character:      DarkKhar
+---------------------------------------------------

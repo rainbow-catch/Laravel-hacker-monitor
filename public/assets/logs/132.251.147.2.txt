@@ -1,0 +1,18 @@
+
+Local Time:   Sun Oct 30 00:30:51 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     8B4A3EF2-638C5EA6-CAB5E5EA-4B7F27FF
+---------------------------------------------------
+Local Time:   Sun Oct 30 00:36:12 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     8B4A3EF2-638C5EA6-CAB5E5EA-4B7F27FF
+---------------------------------------------------
+Local Time:   Wed Nov 02 20:54:57 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\alex verde\AppData\Roaming\Zoom\bin\Zoom.exe
+HardwareID:     8B4A3EF2-638C5EA6-CAB5E5EA-4B7F27FF
+---------------------------------------------------
+Local Time:   Sat Nov 05 11:41:50 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     8B4A3EF2-638C5EA6-CAB5E5EA-4B7F27FF
+---------------------------------------------------

@@ -1,0 +1,6 @@
+
+Local Time:   Sat Oct 01 22:08:01 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\Adobe\Reader 10.0\Reader\AcroRd32.exe
+HardwareID:     9F4C338E-6EE829A6-DBD29D9D-3E0521FA
+---------------------------------------------------

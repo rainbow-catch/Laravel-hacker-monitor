@@ -1,0 +1,11 @@
+
+Local Time:   Mon Oct 31 19:31:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      D:\Asterios\Asterios L2\asterios\AsteriosGame.exe
+HardwareID:     884A41FA-638C5EA6-D2A6E5EA-2D0A5B83
+---------------------------------------------------
+Local Time:   Tue Nov 01 20:34:50 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      D:\Asterios\Asterios L2\asterios\AsteriosGame.exe
+HardwareID:     884A41FA-638C5EA6-D2A6E5EA-2D0A5B83
+---------------------------------------------------

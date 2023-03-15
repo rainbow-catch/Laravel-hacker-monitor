@@ -1,0 +1,16 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Fri Oct 21 21:33:51 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Program Files (x86)\360\Total Security\PromoUtil.exe
+HardwareID:     E52D35F0-7B9D47B4-B8CE8199-5D1C359B
+---------------------------------------------------
+Local Time:   Sun Oct 23 17:43:31 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files (x86)\Redragon K512RGB Mechanical Keyboard\Redragon K512RGB Mechanical Keyboard.exe
+HardwareID:     E52D35F0-7B9D47B4-B8CE8199-5D1C359B
+---------------------------------------------------

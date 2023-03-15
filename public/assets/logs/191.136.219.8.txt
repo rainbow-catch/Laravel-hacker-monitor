@@ -1,0 +1,17 @@
+
+Local Time:   Tue Nov 01 20:11:21 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CB0E60D3-73944EB1-DFB3F5FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Tue Nov 01 20:11:26 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CB0E60D3-73944EB1-DFB3F5FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Nov 05 06:09:03 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CB0E60D3-73944EB1-DFB3F5FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Nov 05 06:09:09 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CB0E60D3-73944EB1-DFB3F5FC-7D3C15BB
+---------------------------------------------------

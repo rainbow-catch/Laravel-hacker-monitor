@@ -1,0 +1,20 @@
+
+Local Time:   Fri Nov 04 10:49:40 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     FB390DE4-42AA7881-EF87C0CC-7E3B41BA
+---------------------------------------------------
+Local Time:   Fri Nov 04 11:18:13 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     FB390DE4-42AA7881-EF87C0CC-7E3B41BA
+---------------------------------------------------
+Local Time:   Fri Nov 04 17:01:25 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     FB390DE4-42AA7881-EF87C0CC-7E3B41BA
+---------------------------------------------------
+Local Time:   Tue Nov 08 10:02:14 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     E52F4DF6-6EE829A6-BCC7889D-4D0B278E
+---------------------------------------------------

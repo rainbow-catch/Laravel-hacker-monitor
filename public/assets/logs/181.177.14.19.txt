@@ -1,0 +1,11 @@
+
+Local Time:   Wed Nov 02 22:22:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\CONDO\OneDrive\Desktop\Nueva carpeta\LSApp\Launcher.exe
+HardwareID:     E9482B96-638C5EA6-CAA6E5EA-2D0D59EC
+---------------------------------------------------
+Local Time:   Thu Nov 03 16:13:09 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\CONDO\OneDrive\Desktop\Nueva carpeta\Google\LSApp\Launcher.exe
+HardwareID:     E9482B96-638C5EA6-CAA6E5EA-2D0D59EC
+---------------------------------------------------

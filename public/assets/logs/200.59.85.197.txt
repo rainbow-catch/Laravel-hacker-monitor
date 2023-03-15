@@ -1,0 +1,41 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Tue Nov 01 05:06:34 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Tue Nov 01 05:08:30 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Tue Nov 01 06:01:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Tue Nov 01 12:56:23 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Wed Nov 02 00:53:18 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Wed Nov 02 00:56:32 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------
+Local Time:   Wed Nov 02 01:51:53 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\CARDON\Desktop\BASTION MU v2\main.exe
+HardwareID:     FC3E59E2-43AC7E86-BB81C6CB-793B14BA
+---------------------------------------------------

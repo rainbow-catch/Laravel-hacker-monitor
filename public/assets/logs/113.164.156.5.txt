@@ -1,0 +1,30 @@
+
+Local Time:   Fri Oct 28 12:21:56 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\NVIDIA Corporation\Control Panel Client\nvcplui.exe
+HardwareID:     ED294AF3-6EE829A6-D8C5869D-4D0C27FD
+---------------------------------------------------
+Local Time:   Thu Nov 10 08:49:03 2022
+Hack Detect:    IceBreak Sys
+Full Path:      C:\Windows\System32\dllhost.exe
+HardwareID:     ED294AF3-6EE829A6-D8C5869D-4D0C27FD
+HardwareID v2:  NO]U^YZ7VWB_N:\
+Account:        0985466641
+Character:      buffcaveQL
+---------------------------------------------------
+Local Time:   Thu Nov 10 08:49:03 2022
+Hack Detect:    IceBreak Sys
+Full Path:      C:\Windows\System32\dllhost.exe
+HardwareID:     ED294AF3-6EE829A6-D8C5869D-4D0C27FD
+HardwareID v2:  NO]U^YZ7VWB_N:\
+Account:        0937110777
+Character:      caveQlam
+---------------------------------------------------
+Local Time:   Thu Nov 10 08:49:09 2022
+Hack Detect:    IceBreak Sys
+Full Path:      C:\Windows\System32\dllhost.exe
+HardwareID:     ED294AF3-6EE829A6-D8C5869D-4D0C27FD
+HardwareID v2:  NO]U^YZ7VWB_N:\
+Account:        0352642607
+Character:      QuatLamtu
+---------------------------------------------------

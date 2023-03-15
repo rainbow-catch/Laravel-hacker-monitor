@@ -1,0 +1,6 @@
+
+Local Time:   Mon Oct 31 22:37:52 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\Admin\AppData\Local\Programs\Zalo\Zalo-22.10.2\plugins\capture\ZaloCall.exe
+HardwareID:     FA3A2193-7B9D4FB6-DAB6F5FA-4D0E258B
+---------------------------------------------------

@@ -1,0 +1,6 @@
+
+Local Time:   Thu Nov 03 16:24:32 2022
+Hack Detect:    Valkyria 7
+Full Path:      C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+HardwareID:     ED4A4D80-638C5EA6-CAA6E5EA-4D7824E1
+---------------------------------------------------

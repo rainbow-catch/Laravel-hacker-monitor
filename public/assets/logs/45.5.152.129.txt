@@ -1,0 +1,121 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Thu Oct 20 00:21:16 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\MuArgos99B+\MuArgos99B+\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 00:38:36 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 23:05:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 23:10:42 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 23:40:43 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Oct 21 21:47:13 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 22 22:09:20 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 00:05:28 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 20:31:53 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 20:32:14 2022
+Hack Detect:    iCeBreak v4
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 21:04:11 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 21:11:03 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 21:22:37 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 21:39:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 22:00:23 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 22:16:40 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 22:38:05 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 24 00:13:28 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 24 01:05:22 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 24 01:16:59 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 24 21:57:19 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Tue Oct 25 23:50:05 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------
+Local Time:   Wed Oct 26 22:06:54 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTERSAT\Desktop\BASTION MU v2\BASTION MU v2\main.exe
+HardwareID:     C40C69D0-73944CB3-DDB0F4FF-7D3C15BB
+---------------------------------------------------

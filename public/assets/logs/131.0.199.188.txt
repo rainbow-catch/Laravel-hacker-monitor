@@ -1,0 +1,16 @@
+
+Local Time:   Thu Sep 22 22:58:18 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Program Files (x86)\MacroRecorder\MacroRecorder.exe
+HardwareID:     98563381-6EE829A6-D8C5869D-256625FE
+---------------------------------------------------
+Local Time:   Thu Sep 22 23:00:09 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Program Files (x86)\MacroRecorder\MacroRecorder.exe
+HardwareID:     98563381-6EE829A6-D8C5869D-256625FE
+---------------------------------------------------
+Local Time:   Thu Sep 22 23:38:52 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Program Files (x86)\MacroRecorder\MacroRecorder.exe
+HardwareID:     98563381-6EE829A6-D8C5869D-256625FE
+---------------------------------------------------

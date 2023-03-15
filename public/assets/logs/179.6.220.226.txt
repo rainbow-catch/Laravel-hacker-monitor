@@ -1,0 +1,15 @@
+
+Local Time:   Tue Sep 27 14:24:11 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      D:\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\sdasd.exe
+HardwareID:     EC2C4CF2-749B48C4-D8C3FDFE-387D21FD
+---------------------------------------------------
+Local Time:   Tue Sep 27 14:48:08 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      D:\MU NIGHTMARE Season 6 Episode 17 - No Sound - actualizado\sdasd.exe
+HardwareID:     EC2C4CF2-749B48C4-D8C3FDFE-387D21FD
+---------------------------------------------------
+Local Time:   Fri Nov 04 01:00:51 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CC0C0ABB-739D4EB4-D3B5F5FA-3C7D2088
+---------------------------------------------------

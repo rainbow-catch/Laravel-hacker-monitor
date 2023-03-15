@@ -1,0 +1,9 @@
+
+Local Time:   Sat Nov 05 20:45:05 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      E:\Hack\bypass\bypass\Matias_alpha s6.exe
+HardwareID:     90392A96-7B984AD9-D3B29A88-446322FD
+HardwareID v2:  NO]U^YZ7ZCU_?UU
+Account:        dknelu
+Character:      SHAMAN
+---------------------------------------------------

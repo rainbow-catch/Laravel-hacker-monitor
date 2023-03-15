@@ -1,0 +1,5 @@
+
+Local Time:   Thu Nov 03 00:01:08 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     E6385FE2-73E94CD9-ABB79AFA-4D63548A
+---------------------------------------------------

@@ -1,0 +1,76 @@
+
+Local Time:   Tue Oct 25 14:31:12 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Tue Oct 25 17:29:36 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\RUBEN\Desktop\Cliente MuRio Oficial\Cliente RioMu\Main.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Thu Oct 27 10:45:55 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Sun Oct 30 20:17:28 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTEL\Desktop\MU RIO\Cliente RioMu\Main.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Sun Oct 30 21:09:43 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTEL\Desktop\MU RIO\Cliente RioMu\Main.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 12:17:32 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 12:18:22 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:06 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:14 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:16 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:18 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 15:04:19 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:00:03 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\INTEL\Desktop\MU RIO\Cliente RioMu\Main.exe
+HardwareID:     BE6D1BAA-739D4FB5-DAB6F7FA-7D0E248B
+---------------------------------------------------

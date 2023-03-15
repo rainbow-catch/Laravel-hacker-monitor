@@ -1,0 +1,11 @@
+
+Local Time:   Thu Oct 13 19:47:01 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\SnippingTool.exe
+HardwareID:     E45A2C8E-6EE829A6-DCC5869D-3B7F20E2
+---------------------------------------------------
+Local Time:   Thu Oct 13 19:48:09 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\SnippingTool.exe
+HardwareID:     E45A2C8E-6EE829A6-DCC5869D-3B7F20E2
+---------------------------------------------------

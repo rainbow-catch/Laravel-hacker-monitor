@@ -1,0 +1,41 @@
+
+Local Time:   Mon Oct 31 21:27:11 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Mon Oct 31 21:27:17 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Mon Oct 31 21:27:19 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Sat Nov 05 15:42:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Sun Nov 06 18:04:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Mon Nov 07 21:41:20 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Mon Nov 07 21:42:15 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------
+Local Time:   Tue Nov 08 19:38:34 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Wemade\Mir4Global\Mir4Client\Engine\Binaries\Win64\CrashReportClient.exe
+HardwareID:     CD0C17B1-7B9C4EB7-DBB3F5F3-7D3C278F
+---------------------------------------------------

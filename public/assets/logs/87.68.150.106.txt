@@ -1,0 +1,20 @@
+
+Local Time:   Fri Oct 07 01:41:51 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Osher\Desktop\האקר\wpe_0delay.exe
+HardwareID:     CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Oct 07 23:38:06 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Osher\Desktop\האקר\wpe_0delay.exe
+HardwareID:     CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 16 01:22:11 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Osher\Desktop\האקר\wpe_0delay.exe
+HardwareID:     CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------
+Local Time:       Sun Oct 16 17:07:02 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         CE0B6ED3-73944BB4-DEB1F7FC-7D3C15BB
+---------------------------------------------------

@@ -1,0 +1,6 @@
+
+Local Time:   Tue Nov 01 15:06:11 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\bin\idea64.exe
+HardwareID:     F53B2D91-739C4EB6-DAB6F5FA-4D0C258B
+---------------------------------------------------

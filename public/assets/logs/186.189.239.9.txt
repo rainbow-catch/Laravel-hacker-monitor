@@ -1,0 +1,9 @@
+
+Local Time:   Sat Nov 05 21:41:21 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Marc\AppData\Local\Temp\Rar$EXa15480.43191\Google Chrome.exe
+HardwareID:     CE0E69D7-709B3CB0-ABB4F5F2-4F0957F9
+HardwareID v2:  NO]U^YZ7V<]@X@>
+Account:        Test3
+Character:      Manco
+---------------------------------------------------

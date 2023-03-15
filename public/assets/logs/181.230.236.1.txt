@@ -1,0 +1,29 @@
+
+Local Time:   Thu Nov 10 12:12:31 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\OneDrive\Escritorio\NebbuMu Season 6\Google Chrome.exe
+HardwareID:     CC0A15D0-09FD32B4-D8B78199-7D3C15BB
+HardwareID v2:  NO]U^YZ7KBKB=M<
+Account:        rakzord
+Character:      DarkBlood
+---------------------------------------------------
+Local Time:   Thu Nov 10 12:30:52 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\OneDrive\Escritorio\NebbuMu Season 6\Google Chrome.exe
+HardwareID:     CC0A15D0-09FD32B4-D8B78199-7D3C15BB
+HardwareID v2:  NO]U^YZ7KBKB=M<
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 10 12:30:53 2022
+Hack Detect:    Suspicious programs
+Full Path:      C:\Users\Usuario\OneDrive\Escritorio\NebbuMu Season 6\Google Chrome.exe
+HardwareID:     CC0A15D0-09FD32B4-D8B78199-7D3C15BB
+HardwareID v2:  NO]U^YZ7KBKB=M<
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 10 22:16:21 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     CC0A15D0-09FD32B4-D8B78199-7D3C15BB
+---------------------------------------------------

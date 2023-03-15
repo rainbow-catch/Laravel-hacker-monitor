@@ -1,0 +1,11 @@
+
+Local Time:   Sun Oct 30 16:23:34 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\ByteFence\rtop\bin\rtop_bg.exe
+HardwareID:     9E0F6DD5-729D4BE7-EA86C5CA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 16:23:54 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\ByteFence\rtop\bin\rtop_bg.exe
+HardwareID:     9E0F6DD5-729D4BE7-EA86C5CA-7D3C15BB
+---------------------------------------------------

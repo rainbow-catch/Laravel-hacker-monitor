@@ -1,0 +1,1295 @@
+[02-Nov-2022 22:41:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[11-Nov-2022 14:38:12 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:12 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:15 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:15 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:16 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:16 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:16 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:16 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:17 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:17 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:21 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:21 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:25 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:25 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:29 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:29 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:29 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:35 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:35 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:42 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:42 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:43 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:43 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:43 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:43 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:44 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:44 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:38:44 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:44 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:38:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:39:08 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:08 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:39:11 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:11 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:39:43 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:43 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:39:49 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:49 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:39:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:05 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:05 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:08 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:08 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:09 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:09 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:09 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:09 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:12 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:12 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:14 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:14 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:18 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:18 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:40:23 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:23 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:40:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 14:41:56 UTC] PHP Warning:  include(/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:41:56 UTC] PHP Warning:  include(): Failed opening '/home4/software/public_html/panel/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home4/software/public_html/panel/vendor/composer/ClassLoader.php on line 571
+[11-Nov-2022 14:41:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#9 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#8 /home4/software/public_html/panel/public/index.php(49): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[11-Nov-2022 16:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[17-Nov-2022 03:18:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[17-Nov-2022 03:18:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[20-Nov-2022 18:16:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[23-Nov-2022 13:12:54 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[23-Nov-2022 13:31:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[26-Nov-2022 15:25:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "translator" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#8 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#28 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#7 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#27 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[26-Nov-2022 15:25:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "translator" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#8 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#28 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#7 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#27 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[26-Nov-2022 15:25:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "translator" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#8 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#28 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#7 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#27 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[26-Nov-2022 15:25:24 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "translator" does not exist in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#8 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#28 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(872): app()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(907): trans()
+#7 /home4/software/public_html/panel/storage/framework/views/be7b54121eb81083060501d95168d7d0a6cd8e0c.php(1): __()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/software...')
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#18 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#19 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#20 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#23 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#27 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(616): Illuminate\Routing\ResponseFactory->view()
+#10 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(541): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(447): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(257): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[28-Nov-2022 20:16:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 256
+[22-Dec-2022 15:05:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 256
+[02-Jan-2023 03:27:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[06-Jan-2023 13:23:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 256
+[06-Jan-2023 13:23:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[19-Jan-2023 23:43:30 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[19-Jan-2023 23:45:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[23-Jan-2023 04:13:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 02:08:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 02:09:10 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:25:53 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:26:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:27:38 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:27:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:27:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[04-Feb-2023 14:28:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[07-Feb-2023 17:08:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[07-Feb-2023 17:08:36 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[07-Feb-2023 17:09:10 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 651264 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[07-Feb-2023 17:12:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[08-Feb-2023 12:14:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[08-Feb-2023 12:14:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[09-Feb-2023 01:58:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[09-Feb-2023 01:58:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[09-Feb-2023 01:58:38 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[09-Feb-2023 01:58:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[09-Feb-2023 02:40:44 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[11-Feb-2023 20:50:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[22-Feb-2023 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[25-Feb-2023 03:11:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 10:46:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:29:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:29:34 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:29:42 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:30:16 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:30:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[27-Feb-2023 16:30:49 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[05-Mar-2023 01:01:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[05-Mar-2023 01:01:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[05-Mar-2023 17:54:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[05-Mar-2023 17:54:37 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[12-Mar-2023 19:07:45 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[12-Mar-2023 19:07:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[12-Mar-2023 19:08:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home4/software/public_html/panel/app/Http/Controllers/Controller.php on line 24
+[14-Mar-2023 14:23:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:24:01 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:24:48 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:24:51 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:24:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:25:03 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:25:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:26:07 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25
+[14-Mar-2023 14:27:50 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 5.6.40. in /home4/software/public_html/panel/vendor/composer/platform_check.php on line 25

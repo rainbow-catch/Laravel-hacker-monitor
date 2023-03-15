@@ -1,0 +1,11 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Sat Oct 22 06:51:58 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\BASTION MU v2\Main.exe
+HardwareID:     FE385BE2-40AA7686-BD81CCCA-793A11BD
+---------------------------------------------------

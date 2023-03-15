@@ -1,0 +1,26 @@
+
+Local Time:   Tue Oct 25 14:31:12 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Tue Oct 25 17:29:36 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\RUBEN\Desktop\Cliente MuRio Oficial\Cliente RioMu\Main.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Thu Oct 27 10:45:55 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\Cliente MuTHAI\Cliente MuThai S6 Epi17\sdasd.exe
+HardwareID:     E4392FE0-759B3CD9-AFB59AF2-396351FF
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:46:27 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\JAPA\Downloads\CE Undetected 3\CE.exe
+HardwareID:     C80E69D0-77944CC3-AEC5F1F9-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:47:18 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\JAPA\Documents\DL.exe
+HardwareID:     C80E69D0-77944CC3-AEC5F1F9-7D3C15BB
+---------------------------------------------------

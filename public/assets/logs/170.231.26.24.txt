@@ -1,0 +1,13 @@
+
+Local Time:       Sun Oct 30 10:19:48 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EB305FE4-779B3FD9-DAC39AF9-4D632589
+---------------------------------------------------
+Local Time:       Tue Nov 01 03:13:09 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EB305FE4-779B3FD9-DAC39AF9-4D632589
+---------------------------------------------------
+Local Time:       Tue Nov 01 03:48:09 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         EB305FE4-779B3FD9-DAC39AF9-4D632589
+---------------------------------------------------

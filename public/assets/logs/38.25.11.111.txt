@@ -1,0 +1,49 @@
+
+Local Time:   Sun Nov 06 12:56:03 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:07:12 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\Desktop\Google Chrome.exe
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        test
+Character:      TestDW
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:16:55 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\Desktop\Google Chrome.exe
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        test
+Character:      TestDK
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:17:12 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\Desktop\Google Chrome.exe
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:17:44 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\Desktop\PARCHAR HACK MU TROYANO\ACTUAL-combo.exe
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        test
+Character:      TestDK
+---------------------------------------------------
+Local Time:   Sun Nov 06 19:18:34 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\Usuario\Desktop\PARCHAR HACK MU TROYANO\ACTUAL-combo.exe
+HardwareID:     E52C2980-638C5EA6-CAA6E5EA-330D5BE1
+HardwareID v2:  PVY\O]
+Account:        test
+Character:      TestDK
+---------------------------------------------------

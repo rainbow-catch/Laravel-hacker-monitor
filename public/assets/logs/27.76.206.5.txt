@@ -1,0 +1,9 @@
+
+Local Time:   Sat Nov 05 23:59:25 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     9E2B2086-638C5EA6-CAA6E5EA-307D2CE1
+HardwareID v2:  C@<L<CMAL?CM??<
+Account:        slowmanta
+Character:      WarmSnow
+---------------------------------------------------

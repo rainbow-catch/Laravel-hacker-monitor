@@ -1,0 +1,6 @@
+
+Local Time:   Mon Oct 31 15:00:30 2022
+Hack Detect:    Suspicious programs 
+Full Path:      O:\KingMu.exe
+HardwareID:     CE0E69D7-749B3CB0-D8B6F1FD-4C785182
+---------------------------------------------------

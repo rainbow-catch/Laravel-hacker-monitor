@@ -1,0 +1,21 @@
+
+Local Time:   Fri Oct 28 20:05:14 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.197.962.0_x86__zpdnekdrzrea0\Spotify.exe
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:09:07 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.197.962.0_x86__zpdnekdrzrea0\Spotify.exe
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:42:46 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\Facundo\Desktop\LeX Softwares App\LSApp.exe
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 02:40:32 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.197.962.0_x86__zpdnekdrzrea0\Spotify.exe
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+---------------------------------------------------

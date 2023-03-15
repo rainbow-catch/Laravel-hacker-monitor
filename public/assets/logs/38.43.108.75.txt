@@ -1,0 +1,26 @@
+
+Local Time:   Sat Sep 10 13:17:40 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Lenovo\Desktop\TODO MU\Client S6 +S17\sdasd.exe
+HardwareID:     9F524BF1-05F85EA6-ABB3F0FC-3F772CE2
+---------------------------------------------------
+Local Time:   Sat Sep 10 13:19:47 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Lenovo\Desktop\TODO MU\Client S6 +S17\sdasd.exe
+HardwareID:     9F524BF1-05F85EA6-ABB3F0FC-3F772CE2
+---------------------------------------------------
+Local Time:   Sat Sep 10 13:22:33 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Users\Lenovo\Desktop\TODO MU\Client S6 +S17\sdasd.exe
+HardwareID:     9F524BF1-05F85EA6-ABB3F0FC-3F772CE2
+---------------------------------------------------
+Local Time:   Sat Oct 08 17:57:31 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Program Files\MegaDownloader\MegaDownloader.exe
+HardwareID:     8F50318C-638C5EA6-DCA6E5EA-4968538E
+---------------------------------------------------
+Local Time:   Wed Oct 19 12:13:53 2022
+Hack Detect:    Hack detected by brute force 
+Full Path:      C:\Program Files\MegaDownloader\MegaDownloader.exe
+HardwareID:     8F50318C-638C5EA6-DCA6E5EA-4968538E
+---------------------------------------------------

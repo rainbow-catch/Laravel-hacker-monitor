@@ -1,0 +1,21 @@
+
+Local Time:   Wed Oct 26 15:21:04 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\Taskmgr.exe
+HardwareID:     974A3CF0-07E65EA6-ABB6F5FB-370C58FF
+---------------------------------------------------
+Local Time:   Wed Oct 26 15:28:59 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\BITSONER\Downloads\Cliente Mu CELTAS S6 Classic\Main.exe
+HardwareID:     974A3CF0-07E65EA6-ABB6F5FB-370C58FF
+---------------------------------------------------
+Local Time:   Fri Oct 28 13:49:16 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\BITSONER\Downloads\Cliente Mu CELTAS S6 Classic\Main.exe
+HardwareID:     974A3CF0-07E65EA6-ABB6F5FB-370C58FF
+---------------------------------------------------
+Local Time:   Sat Oct 29 12:05:05 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\Taskmgr.exe
+HardwareID:     974A3CF0-07E65EA6-ABB6F5FB-370C58FF
+---------------------------------------------------

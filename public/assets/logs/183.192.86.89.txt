@@ -1,0 +1,17 @@
+
+Local Time:   Sun Jan 15 14:43:31 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      E:\«„≥«∆Êº£øÕªß∂À\Main.exe
+HardwareID:     902A3183-638C5EA6-CAA6E5EA-3C6621E1
+HardwareID v2:  NO]U^YZ7\MT?\VU
+Account:        111111
+Character:      ≤‚ ‘
+---------------------------------------------------
+Local Time:   Sun Jan 15 15:13:28 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files\Tenda\WifiAutoInstall\WifiAutoInstallSrv.exe
+HardwareID:     902A3183-638C5EA6-CAA6E5EA-3C6621E1
+HardwareID v2:  NO]U^YZ7\MT?\VU
+Account:        111111
+Character:      ≤‚ ‘
+---------------------------------------------------

@@ -1,0 +1,41 @@
+
+Local Time:   Wed Nov 09 21:47:53 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     FA3C2F93-739C4EB6-DAB6F5FA-4D0C258B
+HardwareID v2:  W\^
+Account:        ph4m4nhtu
+Character:      SoulX
+---------------------------------------------------
+Local Time:   Wed Nov 09 22:28:47 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     FA3C2F93-739C4EB6-DAB6F5FA-4D0C258B
+HardwareID v2:  W\^
+Account:        ph4m4nhtu
+Character:      SoulX
+---------------------------------------------------
+Local Time:   Thu Nov 10 20:02:44 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     FA3C2F93-739C4EB6-DAB6F5FA-4D0C258B
+HardwareID v2:  W\^
+Account:        ph4m4nhtu
+Character:      DarkX
+---------------------------------------------------
+Local Time:   Thu Nov 10 20:12:08 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     FA3C2F93-739C4EB6-DAB6F5FA-4D0C258B
+HardwareID v2:  W\^
+Account:        ph4m4nhtu
+Character:      DarkX
+---------------------------------------------------
+Local Time:   Thu Nov 10 20:46:14 2022
+Hack Detect:    Debugger present.!
+Full Path:      Unknown
+HardwareID:     FA3C2F93-739C4EB6-DAB6F5FA-4D0C258B
+HardwareID v2:  W\^
+Account:        ph4m4nhtu
+Character:      DarkX
+---------------------------------------------------

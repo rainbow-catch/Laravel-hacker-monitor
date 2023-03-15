@@ -1,0 +1,6 @@
+
+Local Time:   Fri Oct 28 16:30:32 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Windows\System32\dwm.exe
+HardwareID:     CE0E69D7-749B3CB0-AEB1F6F2-390A27F9
+---------------------------------------------------

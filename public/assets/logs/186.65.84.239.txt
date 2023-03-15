@@ -1,0 +1,126 @@
+
+Local Time:   Tue Oct 18 12:50:04 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      E:\BASTION MU\BASTION MU - FULL\BASTION MU\Google Chrome.exe
+HardwareID:     8F583888-638C5EA6-B2A6E5EA-316B528C
+---------------------------------------------------
+Local Time:   Thu Oct 20 03:48:06 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 03:54:13 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 03:55:55 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 03:57:03 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 04:13:32 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 04:34:58 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 10:53:15 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 14:08:21 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Thu Oct 20 15:10:48 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Oct 21 15:04:57 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Oct 21 20:23:02 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Sat Oct 22 06:06:47 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      ?
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Sat Oct 22 06:06:47 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      ?
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Sat Oct 22 20:12:21 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Sun Oct 23 07:55:39 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Wed Oct 26 23:11:52 2022
+Hack Detect:    iCeBreak v4
+Full Path:      ?
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Wed Oct 26 23:11:52 2022
+Hack Detect:    iCeBreak v4
+Full Path:      ?
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Oct 28 00:01:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Oct 28 00:10:42 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      ?
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:04:09 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      D:\Nueva carpeta (2)\BASTION MU v2\main.exe
+HardwareID:     F13E5DE2-47AC7C86-EE81C7CD-7F3C14BB
+---------------------------------------------------
+Local Time:   Fri Nov 04 14:37:29 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\54221\Desktop\BASTION MU V3\main.exe
+HardwareID:     CF5F6DD7-259E4FB2-EA86C5CA-7D3C15BB
+---------------------------------------------------
+Local Time:   Fri Nov 04 18:05:51 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\54221\Desktop\BASTION MU V3\main.exe
+HardwareID:     CF5F6DD7-259E4FB2-EA86C5CA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Nov 05 00:18:45 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Program Files\TeamViewer\TeamViewer.exe
+HardwareID:     CF5F6DD7-259E4FB2-EA86C5CA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Nov 06 20:44:39 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8 ,7.0
+Full Path:      C:\Users\54221\Desktop\BASTION MU V3\main.exe
+HardwareID:     CF5F6DD7-259E4FB2-EA86C5CA-7D3C15BB
+---------------------------------------------------

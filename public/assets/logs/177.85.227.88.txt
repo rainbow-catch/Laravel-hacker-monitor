@@ -1,0 +1,6 @@
+
+Local Time:   Sun Oct 23 10:46:04 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\yan\Music\mu\Thrones.exe
+HardwareID:     B70C6BB1-109A4BCC-DFB4F089-7D3C2083
+---------------------------------------------------

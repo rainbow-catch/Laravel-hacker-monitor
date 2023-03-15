@@ -1,0 +1,13 @@
+
+Local Time:       Wed Nov 09 04:33:46 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         CE0E69D7-749B3CB0-ACB4F1F2-3B79548C
+---------------------------------------------------
+Local Time:       Wed Nov 09 05:59:16 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         CE0E69D7-749B3CB0-ACB4F1F2-3B79548C
+---------------------------------------------------
+Local Time:       Thu Nov 10 14:07:19 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         CE0E69D7-749B3CB0-ACB4F1F2-3B79548C
+---------------------------------------------------

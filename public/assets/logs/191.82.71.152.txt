@@ -1,0 +1,11 @@
+
+Local Time:   Fri Nov 04 20:22:00 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\Usuario\Downloads\LeX Softwares App\LeX Softwares App\Launcher.exe
+HardwareID:     EB2E4EF4-638C5EA6-CAA6E5EA-387F2CE1
+---------------------------------------------------
+Local Time:   Sat Nov 05 00:46:18 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\Steam\steam.exe
+HardwareID:     EB2E4EF4-638C5EA6-CAA6E5EA-387F2CE1
+---------------------------------------------------

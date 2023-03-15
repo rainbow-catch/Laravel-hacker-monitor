@@ -1,0 +1,101 @@
+/* Add here all your CSS customizations */
+.screenfolders {
+    border: 1px solid grey;
+}
+
+.screenfolder {
+    background-color: #efefef;
+    border-bottom: 1px solid grey;
+}
+
+.screenfolder a{
+    user-select: none;
+    cursor: pointer;
+}
+
+.screenimage {
+    background-color: #efefef;
+    border-bottom: 1px solid #ababab;
+}
+
+.screenimage a{
+    user-select: none;
+    cursor: pointer;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.logs {
+    background-color: #dfdfdf;
+    border: 2px solid grey;
+    min-height: 300px;
+    height: 420px;
+    border-radius: 3px;
+    overflow-y: auto;
+}
+
+.log a{
+    user-select: none;
+    cursor: pointer;
+}
+
+.log {
+    background-color: #efefef;
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+
+.logbox {
+    background-color: #dfdfdf;
+    border: 2px solid grey;
+    min-height: 300px;
+    border-radius: 3px;
+    padding: 10px;
+    height: 420px;
+    overflow-y: auto;
+}
+
+.log-section {
+    font-weight: bold;
+    min-width: 110px;
+    display: inline-block;
+}
+
+.log-text {
+    color: black;
+}
+
+.bannedlist {
+    background-color: #dfdfdf;
+    border: 2px solid grey;
+    min-height: 300px;
+    border-radius: 3px;
+    color: black;
+    height: 420px;
+    overflow-y: auto;
+}
+
+.banitem {
+    background: #efefef;
+    border-bottom: 1px solid grey;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+@media only screen and (max-width: 767px) {
+    .content-body {
+        padding: 0px;
+    }
+
+    .logbox-container {
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+
+    body{
+        background-color: white;
+    }
+}

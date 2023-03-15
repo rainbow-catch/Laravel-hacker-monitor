@@ -1,0 +1,17 @@
+
+Local Time:   Mon Jan 16 18:14:07 2023
+Hack Detect:    thread manipulation attempt [Inject]
+Full Path:      
+HardwareID:     AA730FD7-75EB2DC1-EA86C5CA-7D3C15BB
+HardwareID v2:  NO]U^YZ7@;NT@?=
+Account:        sv1azul
+Character:      Nehueen
+---------------------------------------------------
+Local Time:   Sun Feb 26 13:23:58 2023
+Hack Detect:    thread manipulation attempt [Inject] v2
+Full Path:      
+HardwareID:     F7255182-719C4CB2-DBB0F5FA-4D0D258B
+HardwareID v2:  NO]U^YZ7\A<S^O=
+Account:        esteban22
+Character:      Upload
+---------------------------------------------------

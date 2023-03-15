@@ -1,0 +1,9 @@
+
+Local Time:   Tue Mar 14 22:15:39 2023
+Hack Detect:    Valkyria all versions [Lex Easy Again]
+Full Path:      C:\Windows\System32\svchost.exe
+HardwareID:     88544F83-638C5EA6-B0A6E5EA-2D0A228A
+HardwareID v2:  NO]U^YZ7\:Y;UZ;
+Account:        
+Character:      
+---------------------------------------------------

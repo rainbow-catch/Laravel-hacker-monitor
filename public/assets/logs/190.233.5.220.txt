@@ -1,0 +1,5 @@
+
+Local Time:   Thu Nov 03 16:05:31 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     8E4B2FF2-6EE829A6-DCC5869D-336C27E2
+---------------------------------------------------

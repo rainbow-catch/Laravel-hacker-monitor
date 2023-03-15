@@ -1,0 +1,17 @@
+
+Local Time:   Thu Nov 10 18:10:45 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe
+HardwareID:     CE0E69D7-759B3CB0-DCB0F6F2-3F0822F9
+HardwareID v2:  ]`XNKSR]
+Account:        aguricci2
+Character:      SevenDahis
+---------------------------------------------------
+Local Time:   Thu Nov 10 18:10:46 2022
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 , 7.3 Sys
+Full Path:      C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe
+HardwareID:     CE0E69D7-759B3CB0-DCB0F6F2-3F0822F9
+HardwareID v2:  ]`XNKSR]
+Account:        aguricci
+Character:      Seven
+---------------------------------------------------

@@ -1,0 +1,59 @@
+
+Local Time:       Sat Oct 29 08:26:11 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sat Oct 29 13:52:42 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sat Oct 29 17:22:25 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sat Oct 29 19:40:36 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sun Oct 30 07:24:24 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sun Oct 30 12:41:50 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:       Sun Oct 30 14:49:22 2022
+Debugger Detect:    IsDebugged present 
+HardwareID:         FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Sun Oct 30 17:18:31 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\phant\AppData\Local\Programs\Zalo\Zalo-22.10.1\plugins\capture\ZaloCall.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Mon Oct 31 03:53:54 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Mon Oct 31 03:53:54 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Mon Oct 31 03:53:54 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Mon Oct 31 03:53:56 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------
+Local Time:   Mon Oct 31 03:53:57 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.963.0_x64__56jybvy8sckqj\nvcplui.exe
+HardwareID:     FF3F5A97-769549B6-AFC287FA-4E0C258B
+---------------------------------------------------

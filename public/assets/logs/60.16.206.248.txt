@@ -1,0 +1,49 @@
+
+Local Time:   Mon Jan 30 02:55:45 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files (x86)\KuGou2012\KuGou.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai2
+Character:      ¶¥¶¥¶¥
+---------------------------------------------------
+Local Time:   Wed Feb 01 01:13:58 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files (x86)\KuGou2012\KuGou.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai1
+Character:      ÍÛÍÛÍÛ
+---------------------------------------------------
+Local Time:   Wed Feb 01 09:40:58 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files (x86)\KuGou2012\KuGou.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai2
+Character:      ¶¥¶¥¶¥
+---------------------------------------------------
+Local Time:   Wed Feb 01 10:56:28 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files (x86)\360\360Safe\sweeper\360MainPageRepair.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai3
+Character:      °×Ã«´óÏÀ
+---------------------------------------------------
+Local Time:   Wed Feb 01 23:23:31 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Program Files (x86)\KuGou2012\KuGou.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai1
+Character:      ÍÛÍÛÍÛ
+---------------------------------------------------
+Local Time:   Fri Feb 03 09:31:02 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      C:\Windows\explorer.exe
+HardwareID:     CE0E69D7-709B3CB0-DFB6F5F2-3C0E22FE
+HardwareID v2:  Tc7<:<;:?=:;?><
+Account:        cuikai1
+Character:      ÍÛÍÛÍÛ
+---------------------------------------------------

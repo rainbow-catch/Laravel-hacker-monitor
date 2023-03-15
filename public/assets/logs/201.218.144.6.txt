@@ -1,0 +1,33 @@
+
+Local Time:   Thu Nov 03 11:23:18 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\IppO\Downloads\AEA (1).exe
+HardwareID:     CF0C69D0-729C4AC3-DBC5F58E-7D3C15BB
+HardwareID v2:  NO]U^YZ7?_ZTA;O
+Account:        IPPO8
+Character:      Kaiser
+---------------------------------------------------
+Local Time:   Thu Nov 03 11:32:04 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\IppO\Downloads\AEA (1).exe
+HardwareID:     CF0C69D0-729C4AC3-DBC5F58E-7D3C15BB
+HardwareID v2:  NO]U^YZ7?_ZTA;O
+Account:        IPPO9
+Character:      Mal0ch
+---------------------------------------------------
+Local Time:   Thu Nov 03 11:32:04 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\IppO\Downloads\AEA (1).exe
+HardwareID:     CF0C69D0-729C4AC3-DBC5F58E-7D3C15BB
+HardwareID v2:  NO]U^YZ7?_ZTA;O
+Account:        IPPO8
+Character:      Kaiser
+---------------------------------------------------
+Local Time:   Thu Nov 03 11:50:42 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     CF0C69D0-729C4AC3-DBC5F58E-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Nov 03 11:51:21 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     CF0C69D0-729C4AC3-DBC5F58E-7D3C15BB
+---------------------------------------------------

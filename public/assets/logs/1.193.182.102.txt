@@ -1,0 +1,49 @@
+
+Local Time:   Sun Jan 29 18:56:39 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      D:\爱奇艺\IQIYI Video\LStyle\10.1.0.6636\QyClient.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        zhao19862
+Character:      阿义
+---------------------------------------------------
+Local Time:   Sun Jan 29 18:56:56 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      D:\爱奇艺\IQIYI Video\LStyle\10.1.0.6636\QyClient.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        zhao19861
+Character:      阿文
+---------------------------------------------------
+Local Time:   Sun Jan 29 18:57:42 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      D:\爱奇艺\IQIYI Video\LStyle\10.1.0.6636\QyClient.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        zhao19861
+Character:      阿文
+---------------------------------------------------
+Local Time:   Sun Jan 29 18:59:26 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      D:\爱奇艺\IQIYI Video\LStyle\10.1.0.6636\QyClient.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        zhao19861
+Character:      阿文
+---------------------------------------------------
+Local Time:   Sun Jan 29 18:59:58 2023
+Hack Detect:    Valkyria 7.0 , 7.1 , 7.2 Sys
+Full Path:      D:\爱奇艺\IQIYI Video\LStyle\10.1.0.6636\QyClient.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        zhao19861
+Character:      阿文
+---------------------------------------------------
+Local Time:   Thu Feb 09 14:38:38 2023
+Hack Detect:    Open process from another program
+Full Path:      G:\傾城\菜鸟奇迹纯公益客户端[1.03K+]\Main.exe
+HardwareID:     8F56318F-638C5EA6-D8A6E5EA-4F0A568E
+HardwareID v2:  NO]U^YZ7TB:K<ZY
+Account:        
+Character:      
+---------------------------------------------------

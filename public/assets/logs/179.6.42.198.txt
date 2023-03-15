@@ -1,0 +1,14 @@
+
+Local Time:   Fri Oct 28 18:52:49 2022
+Hack Detect:    Memory change
+HardwareID:     E85337F5-638C5EA6-CAA6E5EA-486521E1
+---------------------------------------------------
+Local Time:   Fri Oct 28 18:54:42 2022
+Hack Detect:    Memory change
+HardwareID:     E85337F5-638C5EA6-CAA6E5EA-486521E1
+---------------------------------------------------
+Local Time:   Fri Oct 28 18:55:31 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\jumaq\Desktop\Matias-Mu evis-Forza.exe
+HardwareID:     E85337F5-638C5EA6-CAA6E5EA-486521E1
+---------------------------------------------------

@@ -1,0 +1,9 @@
+
+Local Time:   Fri Nov 04 14:36:27 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      D:\JUEGOS\Matias-Mu evis-Forza.exe
+HardwareID:     C50A15D0-029D32B4-ACCD9480-7D3C15BB
+HardwareID v2:  NO]U^YZ7OMYZ>_Q
+Account:        ElVaaquero
+Character:      DopE
+---------------------------------------------------

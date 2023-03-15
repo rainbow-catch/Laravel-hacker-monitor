@@ -1,0 +1,26 @@
+
+Local Time:   Sun Oct 30 16:57:31 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\elbio\Desktop\aplicaciones\asdsad2.exe
+HardwareID:     CC0C69D2-739D47B2-D8CA8FFA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 16:57:49 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      
+HardwareID:     CC0C69D2-739D47B2-D8CA8FFA-7D3C15BB
+---------------------------------------------------
+Local Time:   Tue Nov 01 21:36:39 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\elbio\Desktop\Bombay Source v2\bin\Debug\BombayRobado.exe
+HardwareID:     CC0C69D2-739D47B2-D8CA8FFA-7D3C15BB
+---------------------------------------------------
+Local Time:   Tue Nov 01 21:38:41 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\elbio\Desktop\Bombay Source v2\bin\Debug\v2.exe
+HardwareID:     CC0C69D2-739D47B2-D8CA8FFA-7D3C15BB
+---------------------------------------------------
+Local Time:   Wed Nov 02 00:08:19 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\elbio\Desktop\v2 sin LdrLoadDll.exe
+HardwareID:     CC0C69D2-739D47B2-D8CA8FFA-7D3C15BB
+---------------------------------------------------

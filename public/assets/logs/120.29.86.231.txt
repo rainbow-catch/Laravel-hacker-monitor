@@ -1,0 +1,9 @@
+
+Local Time:   Thu Nov 03 16:01:36 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     CB0E6AB1-0BED3AC8-D3B3F68B-7D3C268E
+---------------------------------------------------
+Local Time:   Thu Nov 03 16:20:52 2022
+Hack Detect:    thread manipulation attempt [KILL or SUSPEND]
+HardwareID:     CB0E6AB1-0BED3AC8-D3B3F68B-7D3C268E
+---------------------------------------------------

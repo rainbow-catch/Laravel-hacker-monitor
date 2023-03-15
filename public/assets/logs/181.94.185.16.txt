@@ -1,0 +1,6 @@
+
+Local Time:   Wed Nov 02 20:54:55 2022
+Hack Detect:    Suspicious programs 
+Full Path:      C:\MuPlataS2\main.exe
+HardwareID:     914E3E89-0EF85EA6-D9DF87F2-2D0C2088
+---------------------------------------------------

@@ -1,0 +1,11 @@
+
+Local Time:   Tue Oct 18 00:28:27 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Program Files (x86)\Overwolf\Overwolf.exe
+HardwareID:     8F5532FB-638C5EA6-DDA6E5EA-300D218E
+---------------------------------------------------
+Local Time:   Tue Oct 18 07:20:25 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Program Files (x86)\Overwolf\Overwolf.exe
+HardwareID:     8F5532FB-638C5EA6-DDA6E5EA-300D218E
+---------------------------------------------------

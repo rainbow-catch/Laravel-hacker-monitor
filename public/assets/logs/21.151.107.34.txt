@@ -1,0 +1,99 @@
+
+Local Time:   Sun Oct 30 23:29:32 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+---------------------------------------------------
+Local Time:   Mon Oct 31 00:30:08 2022
+Hack Detect:    BDCAM 
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+---------------------------------------------------
+Local Time:   Tue Nov 01 09:09:17 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        9009
+Character:      DW990
+---------------------------------------------------
+Local Time:   Tue Nov 01 09:11:04 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 12:10:53 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        admin
+Character:      Admin
+---------------------------------------------------
+Local Time:   Thu Nov 03 12:15:18 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Thu Nov 03 12:32:40 2022
+Hack Detect:    DBCAM
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 08 14:41:29 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 08 14:42:20 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        9009
+Character:      DW990
+---------------------------------------------------
+Local Time:   Tue Nov 08 14:43:30 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 08 15:01:00 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 08 15:01:20 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------
+Local Time:   Tue Nov 08 15:01:43 2022
+Hack Detect:    Modification DBCAM Threads
+Full Path:      Unknown
+HardwareID:     CD0C17B1-7B9C4FB4-D2BEF7F3-7D3C2D8E
+HardwareID v2:  KNWSX
+Account:        
+Character:      
+---------------------------------------------------

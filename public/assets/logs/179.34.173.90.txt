@@ -1,0 +1,66 @@
+
+Local Time:   Fri Oct 28 20:07:50 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:10:53 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:11:41 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:17:26 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:39:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:44:48 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:45:28 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 20:52:41 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 21:31:15 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 21:32:16 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 21:47:06 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 21:48:43 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------
+Local Time:   Fri Oct 28 22:06:55 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\NortonInstaller\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\NGC\A5E82D02\22.16.2.22\InstStub.exe
+HardwareID:     965A2C94-6EE829A6-DBC09D9D-4E0524FA
+---------------------------------------------------

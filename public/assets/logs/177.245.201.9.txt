@@ -1,0 +1,9 @@
+
+Local Time:   Thu Nov 10 20:05:31 2022
+Hack Detect:    Hack detected by TitanScan
+Full Path:      C:\Users\PC\Desktop\Cracker by Zombie Vip\Mu Cracker by zombie.exe
+HardwareID:     CE0E69D7-749B3CB0-DEC5F1F2-457A518A
+HardwareID v2:  MZ_
+Account:        jimorrison
+Character:      MUERDAGO
+---------------------------------------------------

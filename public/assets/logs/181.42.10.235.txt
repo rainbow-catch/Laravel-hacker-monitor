@@ -1,0 +1,11 @@
+
+Local Time:   Wed Oct 12 23:50:43 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\mu warrior\main.exe
+HardwareID:     985F38D7-77CD49E3-EA86C5CA-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Oct 13 15:11:22 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\mu warrior\main.exe
+HardwareID:     985F38D7-77CD49E3-EA86C5CA-7D3C15BB
+---------------------------------------------------

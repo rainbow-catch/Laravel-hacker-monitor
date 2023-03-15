@@ -1,0 +1,21 @@
+
+Local Time:   Sun Oct 16 19:42:17 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\luis\Desktop\MU Global Force Episodio 3\Main.exe
+HardwareID:     EE263388-6EE829A6-DBB39D9D-350F2CFE
+---------------------------------------------------
+Local Time:   Sun Oct 16 21:24:55 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\luis\Desktop\MU Global Force Episodio 3\Main.exe
+HardwareID:     EE263388-6EE829A6-DBB39D9D-350F2CFE
+---------------------------------------------------
+Local Time:   Wed Oct 19 20:51:31 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\luis\Desktop\MU Global Force Episodio 3\Main.exe
+HardwareID:     EE263388-6EE829A6-DBB39D9D-350F2CFE
+---------------------------------------------------
+Local Time:   Wed Oct 19 21:08:09 2022
+Hack Detect:    Hack detected by TitanScan Engine 
+Full Path:      C:\Users\luis\Desktop\MU Global Force Episodio 3\Main.exe
+HardwareID:     EE263388-6EE829A6-DBB39D9D-350F2CFE
+---------------------------------------------------

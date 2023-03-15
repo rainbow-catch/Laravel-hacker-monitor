@@ -1,0 +1,85 @@
+
+Local Time:   Sat Oct 29 18:53:36 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 18:54:22 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 18:54:33 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 18:55:21 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 18:55:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 20:32:52 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\ISS\Desktop\documentos\LeX Softwares App\Launcher.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sat Oct 29 22:53:50 2022
+Hack Detect:    Memory change
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 20:13:05 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 20:13:06 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 20:13:06 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Oct 30 20:13:07 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:32:59 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:32:59 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:33:02 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:33:04 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 16:34:33 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files (x86)\AIMP\AIMP.exe
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------
+Local Time:   Mon Oct 31 17:27:53 2022
+Hack Detect:    Suspicious programs 
+Full Path:      
+HardwareID:     CE0B6FD3-75984EB2-DEB6F4FC-7D3C15BB
+---------------------------------------------------

@@ -1,0 +1,26 @@
+
+Local Time:   Fri Nov 04 10:48:39 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\McAfee\MSC\mcuihost.exe
+HardwareID:     903D5197-40DB76E9-94F0AEA3-7C5779CC
+---------------------------------------------------
+Local Time:   Fri Nov 04 10:48:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\McAfee\MSC\mcuihost.exe
+HardwareID:     903D5197-40DB76E9-94F0AEA3-7C5779CC
+---------------------------------------------------
+Local Time:   Fri Nov 04 10:48:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\McAfee\MSC\mcuihost.exe
+HardwareID:     903D5197-40DB76E9-94F0AEA3-7C5779CC
+---------------------------------------------------
+Local Time:   Fri Nov 04 10:48:42 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\McAfee\MSC\mcuihost.exe
+HardwareID:     903D5197-40DB76E9-94F0AEA3-7C5779CC
+---------------------------------------------------
+Local Time:   Fri Nov 04 10:49:20 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Program Files\McAfee\MSC\mcuihost.exe
+HardwareID:     903D5197-40DB76E9-94F0AEA3-7C5779CC
+---------------------------------------------------

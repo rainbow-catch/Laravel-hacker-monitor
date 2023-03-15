@@ -1,0 +1,17 @@
+
+Local Time:   Sun Nov 06 08:46:40 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     9D4A29AD-73F31BE8-EAB6F5FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Nov 06 08:46:43 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     9D4A29AD-73F31BE8-EAB6F5FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Nov 06 08:46:45 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     9D4A29AD-73F31BE8-EAB6F5FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Sun Nov 06 08:46:48 2022
+Hack Detect:    thread manipulation attempt
+HardwareID:     9D4A29AD-73F31BE8-EAB6F5FA-7D3C15BB
+---------------------------------------------------

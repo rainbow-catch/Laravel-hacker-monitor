@@ -1,0 +1,6 @@
+
+Local Time:   Mon Oct 31 13:30:33 2022
+Hack Detect:    Valkyria 6.6, 6.7 ,6.8
+Full Path:      C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE
+HardwareID:     FC3E59E2-43AC7E86-EF8796CC-7E3B14BD
+---------------------------------------------------

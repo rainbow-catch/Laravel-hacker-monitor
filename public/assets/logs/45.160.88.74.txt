@@ -1,0 +1,6 @@
+
+Local Time:   Sun Oct 30 05:34:56 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\SHURATOOO\Desktop\mU\SuperToolSeason6\ToolMuSS6.exe
+HardwareID:     8F4E2F80-638C5EA6-DBA6E5EA-450C4488
+---------------------------------------------------

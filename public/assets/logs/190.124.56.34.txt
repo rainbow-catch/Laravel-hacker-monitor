@@ -1,0 +1,18 @@
+
+Local Time:   Tue Nov 01 20:47:33 2022
+Hack Detect:    Memory change
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BC
+---------------------------------------------------
+Local Time:   Sun Nov 06 15:31:39 2022
+Hack Detect:    Valkyria Sys
+Full Path:      C:\Users\Facundo\Desktop\FOTOS 1-1\LSApp\Launcher.exe
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+---------------------------------------------------
+Local Time:   Thu Nov 10 01:16:47 2022
+Hack Detect:    Memory Change
+Full Path:      Unknown
+HardwareID:     CE0A60D3-73944FB2-D8BEF0FA-7D3C15BB
+HardwareID v2:  NO]U^YZ7S=^MY?Y
+Account:        toto225
+Character:      xBuum
+---------------------------------------------------

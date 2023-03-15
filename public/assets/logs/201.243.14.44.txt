@@ -1,0 +1,6 @@
+
+Local Time:   Tue Oct 25 22:10:24 2022
+Hack Detect:    Hack detected by TitanScan 
+Full Path:      C:\Users\Gabriel\Desktop\Block de notas\GetHackList\Dump\Goood.exe
+HardwareID:     AE3851E3-40AD7A87-E881CDCC-783B10BA
+---------------------------------------------------
