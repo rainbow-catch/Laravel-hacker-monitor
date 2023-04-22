@@ -29,9 +29,9 @@ class ConnectLogController extends Controller
 
     public function logview (Request $request, $file)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
-        $conn = $this->ftpConn;
 
         $banServer = '/BanHwID/BanHwID.txt';
         $banLocal = tempnam(sys_get_temp_dir(), 'BHW');
@@ -80,7 +80,6 @@ class ConnectLogController extends Controller
             $localFile = 'assets/Connect/' . $file;
             $serverFile = '/Connect/'. $file;
 
-            $conn = $this->ftpConn;
             $ret = @ftp_nb_get($conn, $localFile, $serverFile, FTP_BINARY);
             while ($ret == FTP_MOREDATA) {
                 $ret = ftp_nb_continue($conn);
@@ -178,10 +177,10 @@ class ConnectLogController extends Controller
     {
         $logfile = $request->logfile;
 
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
 
-        $conn = $this->ftpConn;
         $localFile = 'assets/Connect/' . $logfile;
         $serverFile = '/Connect/'.$logfile;
 

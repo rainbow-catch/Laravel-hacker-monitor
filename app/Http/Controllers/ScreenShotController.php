@@ -30,10 +30,10 @@ class ScreenShotController extends Controller
 
     public function folders (Request $request)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
         $folders = [];
-        $conn = $this->ftpConn;
         $list = ftp_mlsd($conn, '/ScreenShots/');
         if (is_array($list)) {
             foreach ($list as $item) {
@@ -65,10 +65,10 @@ class ScreenShotController extends Controller
 
     public function images (Request $request, $folder)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
         $images = [];
-        $conn = $this->ftpConn;
         $list = ftp_mlsd($conn, '/ScreenShots/'.$folder);
         foreach ($list as $item) {
             if ($item['type'] != 'dir' && $item['type'] != 'pdir' && $item['type'] != 'cdir') {
@@ -85,7 +85,8 @@ class ScreenShotController extends Controller
     {
         $folder = $request->folder;
         $image = $request->image;
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
 
         $localFile = 'assets/images/screenshots/'.$folder.$image;
@@ -93,7 +94,6 @@ class ScreenShotController extends Controller
         if (file_exists($localFile))
             return response()->json($localFile);
 
-        $conn = $this->ftpConn;
         $ret = @ftp_nb_get($conn, $localFile, $serverFile, FTP_BINARY);
         while ($ret == FTP_MOREDATA) {
             $ret = ftp_nb_continue($conn);
@@ -104,10 +104,10 @@ class ScreenShotController extends Controller
     public function delfolder (Request $request)
     {
         $folder = $request->folder;
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
 
-        $conn = $this->ftpConn;
         $serverFile = '/ScreenShots/' . $folder;
 
         if ($this->ftp_rdel($conn, $serverFile))
@@ -119,10 +119,10 @@ class ScreenShotController extends Controller
     {
         $folder = $request->folder;
         $image = $request->image;
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
 
-        $conn = $this->ftpConn;
         $localFile = 'assets/images/screenshots/'.$folder.$image;
         $serverFile = '/ScreenShots/' . $folder . '/' . $image;
         if (file_exists($localFile))

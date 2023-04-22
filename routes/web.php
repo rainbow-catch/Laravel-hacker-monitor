@@ -4,6 +4,7 @@ use App\Http\Controllers\ConnectLogController;
 use App\Http\Controllers\FTPController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LicenseController;
+use App\Http\Controllers\LicenseSettingController;
 use App\Http\Controllers\LogController;
 use App\Http\Controllers\LogController2;
 use App\Http\Controllers\DownController;
@@ -43,6 +44,10 @@ Route::get('/getUsers',  [UserManageController::class, 'getUser'])->name('getUse
 Route::get('/user_save',  [UserManageController::class, 'user_save'])->name('userSaved')->middleware('auth');
 Route::get('/user_delete',  [UserManageController::class, 'user_delete'])->name('user_delete')->middleware('auth');
 Route::get('/approve',  [UserManageController::class, 'approve'])->name('approve')->middleware('auth');
+
+Route::get('/licenseSetting', [LicenseSettingController::class, 'index'])->name('licenseSetting');
+Route::post('/licenseSetting/save', [LicenseSettingController::class, 'save'])->name('licenseSetting.save');
+
 });
 
 Route::get('/screenshots',  [ScreenShotController::class, 'folders'])->name('screenshots')->middleware('auth');
@@ -65,6 +70,10 @@ Route::post('/ban/delete',  [LogController::class, 'bandelete'])->middleware('au
 Route::get('/guides', [LogController2::class, 'index'])->name('guides');
 
 Route::get('/downloads', [DownController::class, 'index'])->name('downloads');
+Route::post('/downloads/save/{id}', [DownController::class, 'save'])->name('downloads.save');
+Route::post('/downloads/logs/save', [DownController::class, 'saveLog'])->name('downloads.logs.save');
+Route::post('/downloads/logs/save/{id}', [DownController::class, 'saveLog'])->name('downloads.logs.save');
+Route::delete('/downloads/logs/delete/{id}', [DownController::class, 'deleteLog'])->name('downloads.logs.delete');
 
 Route::get('/license', [LicenseController::class, 'index'])->name('license');
 Route::get('/license/generate', [LicenseController::class, 'generate']);

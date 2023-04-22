@@ -48,9 +48,9 @@ class FTPController extends Controller
 
     public  function install (Request $request)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
-        $conn = $this->ftpConn;
         @ftp_mkdir($conn, 'BanHwID');
         @ftp_mkdir($conn, 'Logs');
         @ftp_mkdir($conn, 'ScreenShots');
@@ -66,16 +66,16 @@ class FTPController extends Controller
     }
     public  function uninstall (Request $request)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
         $success = true;
-        $conn = $this->ftpConn;
         $success  &= $this->ftp_rdel($conn,'BanHwId');
         $success  &= $this->ftp_rdel($conn,'Logs');
         $success  &= $this->ftp_rdel($conn,'ScreenShots');
         $success  &= $this->ftp_rdel($conn,'Connect');
         if ($success)
             return redirect('/home');
-
+    
     }
 }

@@ -23,9 +23,9 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
-        $conn = $this->ftpConn;
 
         $banExist = $this->is_folder($conn, 'BanHwID');
         $logsExist = $this->is_folder($conn, 'Logs');

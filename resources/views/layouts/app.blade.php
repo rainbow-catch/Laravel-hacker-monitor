@@ -167,6 +167,14 @@
                                         <span>License</span>
                                     </a>
                                 </li>
+                                @if(Auth::user()->approve == '2')
+                                     <li>
+                                        <a href="{{ route('licenseSetting') }}">
+                                            <i class="fa fa-drivers-license" aria-hidden="true"></i>
+                                            <span>License Setting</span>
+                                        </a>
+                                    </li>
+                                @endif
                                 <li>
                                     <a href="{{ route('guides') }}">
                                         <i class="fa fa-folder" aria-hidden="true"></i>

@@ -12,7 +12,6 @@ use phpDocumentor\Reflection\Types\Null_;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public $ftpConn = null;
 
     public function is_folder ($handle, $path) {
         $list = @ftp_nlist($handle, $path);
@@ -43,12 +42,11 @@ class Controller extends BaseController
         $conn = ftp_connect($ftpaddr);
         if ($conn) {
             if (!@ftp_login($conn, $username, $password)) {
-                return false;
+                return null;
             }
         } else {
-            return false;
+            return null;
         }
-        $this->ftpConn = $conn;
-        return true;
+        return $conn;
     }
 }

@@ -29,9 +29,9 @@ class LogController extends Controller
 
     public function logview (Request $request, $file)
     {
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
-        $conn = $this->ftpConn;
 
         $banServer = '/BanHwID/BanHwID.txt';
         $banLocal = tempnam(sys_get_temp_dir(), 'BHW');
@@ -77,7 +77,6 @@ class LogController extends Controller
             $localFile = 'assets/Logs/' . $file;
             $serverFile = '/Logs/'. $file;
 
-            $conn = $this->ftpConn;
             ftp_get($conn, $localFile, $serverFile, FTP_BINARY);
 
             $fp = @fopen($localFile, "r");
@@ -166,12 +165,11 @@ class LogController extends Controller
     public function banadd (Request $request)
     {
         $hardware = $request->hardware;
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
         if (strlen($hardware) <= 0)
             return response()->json('failed');
-
-        $conn = $this->ftpConn;
 
         $banServer = '/BanHwID/BanHwID.txt';
         $banLocal = tempnam(sys_get_temp_dir(), 'BHW');
@@ -193,9 +191,9 @@ class LogController extends Controller
     public function bandelete (Request $request)
     {
         $hardware = $request->hardware;
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
-        $conn = $this->ftpConn;
 
         $banServer = '/BanHwID/BanHwID.txt';
         $banLocal = tempnam(sys_get_temp_dir(), 'BHW');
@@ -222,10 +220,10 @@ class LogController extends Controller
     {
         $logfile = $request->logfile;
 
-        if (!$this->checkFtp($request))
+        $conn = $this->checkFtp($request);
+        if ($conn == null)
             return redirect('/ftp');
 
-        $conn = $this->ftpConn;
         $localFile = 'assets/Logs/' . $logfile;
         $serverFile = '/Logs/'.$logfile;
 
