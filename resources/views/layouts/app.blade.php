@@ -69,7 +69,7 @@
                 <div id="userbox" class="userbox mt-sm">
                     <a href="#" data-toggle="dropdown">
                         <figure class="profile-picture">
-                            <img src="{{ asset('assets/images/!logged-user.jpg') }}" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+                            <img src="{{ Auth::user()->avatar }}" alt="{{ Auth::user()->avatar }}" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
                         </figure>
                         <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
                             <span class="name">{{ Auth::user()->name }}</span>

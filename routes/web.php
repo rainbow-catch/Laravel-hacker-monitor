@@ -40,13 +40,15 @@ Route::group(['prefix' => 'ftp'], function () {
 
 Route::group(['prefix' => 'admin'], function () {
 Route::get('/users',  [UserManageController::class, 'index'])->name('usersManagement')->middleware('auth');
+Route::post('/users/changePassword',  [UserManageController::class, 'changePassword'])->name('changePassword')->middleware('auth');
+Route::post('/users/changeAvatar',  [UserManageController::class, 'changeAvatar'])->name('changeAvatar')->middleware('auth');
 Route::get('/getUsers',  [UserManageController::class, 'getUser'])->name('getUsers')->middleware('auth');
 Route::get('/user_save',  [UserManageController::class, 'user_save'])->name('userSaved')->middleware('auth');
 Route::get('/user_delete',  [UserManageController::class, 'user_delete'])->name('user_delete')->middleware('auth');
 Route::get('/approve',  [UserManageController::class, 'approve'])->name('approve')->middleware('auth');
 
-Route::get('/licenseSetting', [LicenseSettingController::class, 'index'])->name('licenseSetting');
-Route::post('/licenseSetting/save', [LicenseSettingController::class, 'save'])->name('licenseSetting.save');
+Route::get('/licenseSetting', [LicenseSettingController::class, 'index'])->name('licenseSetting')->middleware('auth');
+Route::post('/licenseSetting/save', [LicenseSettingController::class, 'save'])->name('licenseSetting.save')->middleware('auth');
 
 });
 

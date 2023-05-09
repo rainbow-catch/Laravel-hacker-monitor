@@ -46,7 +46,8 @@ class UserManageController extends Controller
                 'password1' => $data[3],
                 'approve' => '0',
                 'ip' => $data[4],
-                'enddate' => $data[5]
+                'enddate' => $data[5],
+                'version' => $data[6]
             ]);
         }
         else
@@ -57,7 +58,8 @@ class UserManageController extends Controller
                 'password' => Hash::make($data[3]),
                 'password1' => $data[3],
                 'ip' => $data[4],
-                'enddate' => $data[5]
+                'enddate' => $data[5],
+                'version    ' => $data[6],
             ];
             User::where('id', $userId)->update($userUpdate);
             $new_user = true;
@@ -69,6 +71,29 @@ class UserManageController extends Controller
         return response()->json($result);
     }
 
+    public function changePassword(Request $request) {
+        try {
+            $user = User::find(Auth::user()->id);
+            $user->password1 = $request->input('password');
+            $user->password = Hash::make($request->input('password'));
+            $user->save();
+            return response()->json("success", 200);
+        }
+        catch (\Exception $e){
+            return response()->json($e->getMessage(), 500);
+        }
+    }
+    public function changeAvatar(Request $request) {
+        try {
+            $user = User::find(Auth::user()->id);
+            $user->avatar = $request->input('avatar');
+            $user->save();
+            return response()->json("success", 200);
+        }
+        catch (\Exception $e){
+            return response()->json($e->getMessage(), 500);
+        }
+    }
     public function user_delete(Request $request) {
         if (Auth::user()->approve != '2')
             return response()->json('failed');

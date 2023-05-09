@@ -9,7 +9,6 @@
 namespace App\Http\Controllers;
 
 
-use App\Models\LicenseSetting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use ZipArchive;
@@ -28,8 +27,7 @@ class LicenseController extends Controller
 
     public function index()
     {
-        $setting = LicenseSetting::find(1);
-        return view('license', ['setting' => $setting]);
+        return view('license');
     }
 
     public function generateKey ($org, $key, $keydiv, $val) {
@@ -57,28 +55,6 @@ class LicenseController extends Controller
         return $res;
     }
 
-
-    function encrypt($key,$iv,$data)
-    {
-        $method = 'AES-128-CBC';
-        $ivsize = openssl_cipher_iv_length($method);
-        $en = openssl_encrypt($data,$method,$key,OPENSSL_RAW_DATA,$iv);
-        return base64_encode($en);
-    }
-    function decrypt($key,$iv,$data)
-    {
-        $method = 'AES-128-CBC';
-        $data = base64_decode($data);
-        $ivsize = openssl_cipher_iv_length($method);
-        $data = openssl_decrypt($data
-            ,$method,$key,OPENSSL_RAW_DATA,$iv);
-        return $data;
-    }
-
-    function encode ($data) {
-        return $this->encrypt('0AEKJ23KL29LEN1','3981010932934832',$data);
-    }
-
     function write_php_ini($array, $file)
     {
         $res = array();
@@ -86,12 +62,12 @@ class LicenseController extends Controller
         {
             if(is_array($val))
             {
-                $res[] = $this->encode("[$key]");
+                $res[] = "[$key]";
                 foreach($val as $skey => $sval)
-                    $res[] = $this->encode("$skey = ".$sval);
+                    $res[] = "$skey = ".$sval;
             }
             else
-                $res[] = $this->encode("$key = ".$val);
+                $res[] = "$key = ".$val;
         }
         $this->safefilerewrite($file, implode("\r\n", $res));
     }
@@ -199,31 +175,23 @@ class LicenseController extends Controller
         $user = Auth::user();
 
         $data = array(
-            'XorF' => $this->cipherEncryption1($request->session()->get('ftpaddress')),
-            'XorU' => $this->cipherEncryption1($request->session()->get('ftpusername')),
-            'XorP' => $this->cipherEncryption1($request->session()->get('ftppassword')),
-            'SpecialCode' => $this->cipherEncryption1($user->ip),
-            'Version' => $this->cipherEncryption44($user->enddate),
-            'Crc32' => 0
+            'ClientInfo' => array(
+                'ClientName' => $request->client_name,
+                'XorF' => $this->cipherEncryption1($request->session()->get('ftpaddress')),
+                'XorU' => $this->cipherEncryption1($request->session()->get('ftpusername')),
+                'XorP' => $this->cipherEncryption1($request->session()->get('ftppassword')),
+                'SpecialCode' => $this->cipherEncryption1($user->ip),
+                'CheckMemo' => $request->check_memo == "on" ? 0 : 0,
+                'ForceLauncher' => $request->force_launcher == "on" ? 1 : 0,
+                'LauncherCRC' => $request->launcher_crc,
+                'Macros' => $request->checksumm == "on" ? 0 : 0,
+                'MaxInstances' => $request->max_instances,
+                'Version' => $this->cipherEncryption44($user->enddate),
+                'Crc32' => 0
+            ),
         );
-
-        if($request->has('client_name'))
-            $data['ClientName'] = $request->client_name;
-        if($request->has('check_memo'))
-            $data['CheckMemo'] = $request->check_memo == "on" ? 0 : 0;
-        if($request->has('force_launcher'))
-            $data['ForceLauncher'] = $request->force_launcher == "on" ? 1 : 0;
-        if($request->has('launcher_crc'))
-            $data['LauncherCRC'] = $request->launcher_crc;
-        if($request->has('checksumm'))
-            $data['Macros'] = $request->checksumm == "on" ? 0 : 0;
-        if($request->has('max_instances'))
-            $data['MaxInstances'] = $request->max_instances;
-
-        $this->write_php_ini(
-            array('ClientInfo' => $data),
-            $license
-        );
+  
+        $this->write_php_ini($data, $license);
         
         @file_put_contents($xmlFile,$this->cipherEncryption4($user->ip));
       

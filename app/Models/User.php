@@ -24,7 +24,10 @@ class User extends Authenticatable
         'password1',
         'approve',
         'ip',
-        'enddate'
+        'enddate',
+        'version',
+        'avatar',
+        'last_login'
     ];
 
     /**
@@ -45,4 +48,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function LastLogin() {
+        if(json_decode($this->last_login) == null) return null;
+        $lastLogin = json_decode($this->last_login)->last_login;
+        return $lastLogin;
+    }
 }

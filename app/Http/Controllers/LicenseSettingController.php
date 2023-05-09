@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\LicenseSetting;
 use App\Http\Requests\StoreLicenseSettingRequest;
 use App\Http\Requests\UpdateLicenseSettingRequest;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LicenseSettingController extends Controller
 {
@@ -16,8 +17,11 @@ class LicenseSettingController extends Controller
      */
     public function index()
     {
-        $setting = LicenseSetting::find(1);
-        return view('admin.licenseSetting', ['setting' => $setting->toArray()]);
+        $id = Auth::user()->id;
+        $user = User::find($id);
+        $ip = $user->ip;
+
+        return view('admin.licenseSetting', compact(['ip', 'user']));
     }
 
     public function save(Request $request){

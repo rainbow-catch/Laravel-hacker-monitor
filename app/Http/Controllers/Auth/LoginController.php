@@ -61,7 +61,16 @@ class LoginController extends Controller
                 if ($request->hasSession()) {
                     $request->session()->put('auth.password_confirmed_at', time());
                 }
-
+                if(json_decode($user->last_login) == null) $lastLogin = null;
+                else $lastLogin = json_decode($user->last_login)->current_login;
+                $user->last_login = json_encode([
+                   'current_login' => [
+                       "PC" => gethostname(),
+                       "IP" => $_SERVER['REMOTE_ADDR']
+                   ],
+                   'last_login' => $lastLogin
+                ]);
+                $user->save();
                 return $this->sendLoginResponse($request);
             }
 
@@ -80,6 +89,7 @@ class LoginController extends Controller
 
 
     }
+
 
     /**
      * Create a new controller instance.

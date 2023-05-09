@@ -26,6 +26,7 @@
                         <th>Password</th>
                         <th>Ip</th>
                         <th>End Date</th>
+                        <th>Version</th>
                         <th>Actions</th>
                     </tr>
                     </thead>
@@ -38,6 +39,7 @@
                                 <td>{{ $user->password1 }}</td>
                                 <td>{{ $user->ip }}</td>
                                 <td class="date">{{ $user->enddate }}</td>
+                                <td>{{ $user->version }}</td>
                                 <td class="actions">
                                     <a href="#" class="hidden on-editing save-row"><i class="fa fa-save"></i></a>
                                     <a href="#" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>

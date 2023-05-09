@@ -53,6 +53,7 @@ Theme Version: 	1.7.0
                     null,
                     null,
                     null,
+                    null,
                     { "bSortable": false }
                 ],
                 orderCellsTop: true,
