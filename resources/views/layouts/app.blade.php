@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <!-- Head Libs -->
-
+    @yield('style')
     {{--<script src="{{ asset('assets/vendor/jquery/jquery.js') }}"></script>--}}
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

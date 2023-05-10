@@ -19,22 +19,7 @@ class LicenseSettingController extends Controller
     {
         $id = Auth::user()->id;
         $user = User::find($id);
-        $ip = $user->ip;
-
-        return view('admin.licenseSetting', compact(['ip', 'user']));
-    }
-
-    public function save(Request $request){
-        $setting = LicenseSetting::find(1);
-
-        $setting->name = $request->has('name');
-        $setting->memory = $request->has('memory');
-        $setting->launcher = $request->has('launcher');
-        $setting->crc32 = $request->has('crc32');
-        $setting->system = $request->has('system');
-        $setting->instance = $request->has('instance');
-
-        $setting->save();
-        return redirect()->back();
+        $guests = User::where('approve', 3)->where('parent_id', $id)->get();
+        return view('admin.licenseSetting', compact(['guests', 'user']));
     }
 }

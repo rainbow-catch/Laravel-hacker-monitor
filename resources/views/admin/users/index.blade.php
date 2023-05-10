@@ -1,10 +1,10 @@
 @extends('layouts.app')
-
-@section('content')
+@section('style')
     <link rel="stylesheet" href="{{ asset('assets/vendor/select2/css/select2.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/select2-bootstrap-theme/select2-bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/jquery-datatables-bs3/assets/css/datatables.css') }}" />
-
+@endsection
+@section('content')
     <section role="main" class="content-body">
         <!-- start: page -->
         <section class="panel">
@@ -80,6 +80,8 @@
         </div>
         <!-- end: page -->
     </section>
+@endsection
+@section('script')
     <script src="{{ asset('assets/javascripts/tables/examples.datatables.editable.js') }}?v=1"></script>
 
     <script>

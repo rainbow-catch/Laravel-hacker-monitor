@@ -27,7 +27,8 @@ class User extends Authenticatable
         'enddate',
         'version',
         'avatar',
-        'last_login'
+        'last_login',
+        'parent_id',
     ];
 
     /**
@@ -53,5 +54,25 @@ class User extends Authenticatable
         if(json_decode($this->last_login) == null) return null;
         $lastLogin = json_decode($this->last_login)->last_login;
         return $lastLogin;
+    }
+
+    public function Role() {
+//        return $this->hasOne('App\Models\Role');
+        return Role::where('guest_id', $this->id)->first();
+    }
+
+    public function GetRoleString() {
+        $res = [];
+        $role = $this->Role();
+        if($role==null) return $res;
+        if($role->see_home) array_push($res, 'Home');
+        if($role->see_screenshots) array_push($res, 'Screenshots');
+        if($role->see_hack_logs) array_push($res, 'HackLogs');
+        if($role->see_connect_logs) array_push($res, 'ConnectLogs');
+        if($role->see_tools_download) array_push($res, 'ToolsDownload');
+        if($role->see_guides) array_push($res, 'Guides');
+        if($role->ban_hardware) array_push($res, 'Hardware');
+
+        return $res;
     }
 }

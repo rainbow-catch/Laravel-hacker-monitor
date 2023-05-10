@@ -8,6 +8,18 @@ Theme Version: 	1.7.0
 
     'use strict';
 
+    var roleCheckBoxes = [
+        { id: "input-see-home", label: "See Home", value: "see_home"},
+        { id: "input-see-screenshots", label: "See Screenshots", value: "see_screenshots"},
+        { id: "input-see-hacklogs", label: "See Hack Logs", value: "see_hack_logs"},
+        { id: "input-see-connectlogs", label: "See Connect Logs", value: "see_connect_logs"},
+        { id: "input-see-toolsdownload", label: "See Tools Download", value: "see_tools_download"},
+        { id: "input-see-guides", label: "See Guides", value: "see_guides"},
+        { id: "input-see-hardware", label: "Ban Hardware", value: "see_ban_hardware"},
+    ].map(function(item){
+        return '<input type="checkbox" name="role[]" value="' + item.value + '" class="form-check mr-md" id="' + item.id + '">' +
+            '<label for="' + item.id + '">' + item.label + '</label><br/>';
+    }).join("\n");
     var EditableTable = {
 
         options: {
@@ -47,9 +59,6 @@ Theme Version: 	1.7.0
                 .appendTo('#datatable-editable thead');
             this.datatable = this.$table.DataTable({
                 aoColumns: [
-                	null,
-                    null,
-                    null,
                     null,
                     null,
                     null,
@@ -153,7 +162,7 @@ Theme Version: 	1.7.0
                                     e.preventDefault();
 
                                     $.ajax({
-                                        url: '/admin/user_delete',
+                                        url: '/licenseSetting/guest_delete',
                                         method: 'GET',
                                         data: {
                                             id: itemId
@@ -171,35 +180,7 @@ Theme Version: 	1.7.0
                             }
                         }
                     })
-                })
-				.on( 'click', 'a.approve-row', function( e ) {
-					e.preventDefault();
-
-					var $row = $(this).closest('tr'),
-						itemId = $row.find('td:first').html();
-
-					$.ajax({
-						url: '/admin/approve',
-						method: 'GET',
-						data: {
-							id: itemId
-						},
-						success: function (res) {
-                            if(res.approve == "1")
-                            {
-                                $row.find('td:last').find('a:last').find('i').css('color', 'deepskyblue');
-                            }
-                            if(res.approve == "0")
-                            {
-                                $row.find('td:last').find('a:last').find('i').css('color', 'red');
-                                // $row.find('td:last').find('a:last').addClass('btn-color-approve');
-
-                            }
-						}
-					});
-
-
-				});
+                });
 
             this.$addButton.on( 'click', function(e) {
                 e.preventDefault();
@@ -230,10 +211,9 @@ Theme Version: 	1.7.0
                 '<a href="#" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>',
                 '<a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>',
                 '<a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>',
-                '<a href="#" class="on-default approve-row"><i  style="color: red" class="fa fa-check"></i></a>\n'
             ].join(' ');
 
-            data = this.datatable.row.add([ '', '', '', '', '', '', '', actions ]);
+            data = this.datatable.row.add([ '', '', '', '', actions ]);
             $row = this.datatable.row( data[0] ).nodes().to$();
 
             $row
@@ -244,8 +224,8 @@ Theme Version: 	1.7.0
                 .find( 'td:eq(0)' )
                 .attr( 'hidden', true );
             $row
-                .find( 'td:eq(5)')
-                .addClass('date');
+                .find( 'td:eq(3)')
+                .addClass('roles');
 
             this.rowEdit( $row );
 
@@ -285,20 +265,23 @@ Theme Version: 	1.7.0
 
                 if ( $this.hasClass('actions') ) {
                     _self.rowSetActionsEditing( $row );
-                } else if ($this.hasClass('date')) {
-                    $this.html( '<input type="text" class="form-control input-block datepicker" value="' + data[i] + '"/>' );
+                } else if ($this.hasClass('roles')) {
+                    $this.html( roleCheckBoxes );
                 } else {
                     $this.html( '<input type="text" class="form-control input-block" value="' + data[i] + '"/>' );
                 }
             });
 
             setTimeout(function() {
-                $(".datepicker").datepicker({ format: 'yyyy-mm-dd' });
+                data[3].split("|").map(function(item){
+                    $('#input-see-' + item.toLowerCase()).attr('checked', true);
+                })
             }, 100);
+
         },
 		rowSave: function( $row ) {
 					var _self     = this,
-						$actions,
+						$actions, roles,
 						values    = [],
 						parms = [];
 					values = $row.find('td').map(function() {
@@ -307,7 +290,13 @@ Theme Version: 	1.7.0
 						if ( $this.hasClass('actions') ) {
 							_self.rowSetActionsDefault( $row );
 							return _self.datatable.cell( this ).data();
-						} else {
+						} else if($this.hasClass('roles')) {
+                            var roles = $this.find('input').map(function(){
+                                return this.checked?1:0;
+                            }).get();
+                            parms.push(roles);
+                            return $.trim( values.join("|") );
+                        } else {
 							parms.push($this.find('input').val());
 							return $.trim( $this.find('input').val() );
 						}
@@ -315,7 +304,7 @@ Theme Version: 	1.7.0
     					console.log(parms)
                     var row_num, new_user;
 					$.ajax({
-						url: '/admin/user_save',
+						url: '/admin/guest_save',
 						method: 'GET',
 						data: {
 							parms: parms,
@@ -323,40 +312,39 @@ Theme Version: 	1.7.0
 						success: function(response) {
                             row_num = response.user_id;
                             new_user = response.new_user;
+                            roles = response.roles;
                             if(new_user == false)
-                                window.location.replace('users')
+                                window.location.replace('users');
+                            if ( $row.hasClass( 'adding' ) ) {
+                                this.$addButton.removeAttr( 'disabled' );
+                                $row.removeClass( 'adding' );
+                            }
+
+                            values = $row.find('td').map(function() {
+                                var $this = $(this);
+
+                                if ( $this.hasClass('actions') ) {
+                                    _self.rowSetActionsDefault( $row );
+                                    return _self.datatable.cell( this ).data();
+                                }
+                                else if( $this.hasClass('roles') ) {
+                                    return roles;
+                                }
+                                else {
+                                    return $.trim( $this.find('input').val() );
+                                }
+                            });
+
+                            _self.datatable.row( $row.get(0) ).data( values );
+
+                            $actions = $row.find('td.actions');
+                            if ( $actions.get(0) ) {
+                                _self.rowSetActionsDefault( $row );
+                            }
+
+                            _self.datatable.draw(true);
 						}
 					});
-					var _self     = this,
-						$actions,
-						values    = [];
-
-					if ( $row.hasClass( 'adding' ) ) {
-						this.$addButton.removeAttr( 'disabled' );
-						$row.removeClass( 'adding' );
-					}
-
-					values = $row.find('td').map(function() {
-						var $this = $(this);
-
-						if ( $this.hasClass('actions') ) {
-							_self.rowSetActionsDefault( $row );
-							return _self.datatable.cell( this ).data();
-						} else {
-							return $.trim( $this.find('input').val() );
-						}
-					});
-
-					this.datatable.row( $row.get(0) ).data( values );
-
-					$actions = $row.find('td.actions');
-					if ( $actions.get(0) ) {
-						this.rowSetActionsDefault( $row );
-					}
-
-					this.datatable.draw(true);
-
-
 				},
 
 
@@ -377,7 +365,6 @@ Theme Version: 	1.7.0
             $row.find( '.on-editing' ).addClass( 'hidden' );
             $row.find( '.on-default' ).removeClass( 'hidden' );
         }
-
     };
 
     $(function() {

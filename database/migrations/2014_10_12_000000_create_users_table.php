@@ -20,7 +20,14 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('password1');
+            $table->string('ip')->nullable();
+            $table->date('enddate')->nullable();
             $table->string('approve');
+            $table->string('version')->nullable();
+            $table->string('avatar')->nullable();
+            $table->json('last_login')->nullable();
+            $table->unsignedBigInteger('parent_id')->nullable();
+
             $table->rememberToken();
             $table->timestamps();
         });

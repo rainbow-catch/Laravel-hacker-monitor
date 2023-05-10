@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Role;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
@@ -25,7 +26,7 @@ class UserManageController extends Controller
                 User::where('id', $item->id)->update($approveUpdate);
             }
         }
-        $data = User::orderBy('id', 'DESC')->get();
+        $data = User::where('approve', '<', 3)->orderBy('id', 'DESC')->get();
         return view('admin.users.index', ['users' => $data]);
     }
 
@@ -59,7 +60,7 @@ class UserManageController extends Controller
                 'password1' => $data[3],
                 'ip' => $data[4],
                 'enddate' => $data[5],
-                'version    ' => $data[6],
+                'version' => $data[6],
             ];
             User::where('id', $userId)->update($userUpdate);
             $new_user = true;
@@ -67,6 +68,64 @@ class UserManageController extends Controller
         $user = User::get()->last();
         $result['user_id'] = $user->id;
         $result['new_user'] = $new_user;
+
+        return response()->json($result);
+    }
+
+    public function guest_save(Request $request) {
+        if (Auth::user()->approve != '2')
+            return response()->json('failed');
+
+        $data = $request->parms;
+        $userId = $data[0];
+        $user_check = User::where('id', $userId)->get();
+        $new_user = false;
+        if(!$data[0])
+        {
+            $user = User::create([
+                'name' => $data[1],
+                'email' => $data[1],
+                'password' => Hash::make($data[2]),
+                'password1' => $data[2],
+                'approve' => '3',
+            ]);
+            Role::create([
+                'see_home' => $data[3][0],
+                'see_screenshots' => $data[3][1],
+                'see_hack_logs' => $data[3][2],
+                'see_connect_logs' => $data[3][3],
+                'see_tools_download' => $data[3][4],
+                'see_guides' => $data[3][5],
+                'ban_hardware' => $data[3][6],
+                'guest_id' => $user->id
+            ]);
+        }
+        else
+        {
+            $userUpdate = [
+                'name' => $data[1],
+                'email' => $data[1],
+                'password' => Hash::make($data[2]),
+                'password1' => $data[2],
+            ];
+            User::where('id', $userId)->update($userUpdate);
+
+            Role::where('guest_id', $userId)->update([
+                'see_home' => $data[3][0],
+                'see_screenshots' => $data[3][1],
+                'see_hack_logs' => $data[3][2],
+                'see_connect_logs' => $data[3][3],
+                'see_tools_download' => $data[3][4],
+                'see_guides' => $data[3][5],
+                'ban_hardware' => $data[3][6],
+                'guest_id' => $userId
+            ]);
+            $new_user = true;
+        }
+        $user = User::get()->last();
+        $result['user_id'] = $user->id;
+        $result['new_user'] = $new_user;
+        $result['roles'] = implode("|", $user->GetRoleString());
 
         return response()->json($result);
     }
