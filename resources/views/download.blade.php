@@ -1,12 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <?php
-    $admin = false;
-    if (Auth::user()->approve == '2')
-        $admin = true;
-    ?>
-
     <style>
         .main-table {
             font-family: arial, sans-serif;
@@ -45,7 +39,7 @@
                             <th>Context</th>
                             <th>Download</th>
                             <th>Update date</th>
-                            @if($admin)
+                            @if(Auth::user()->approve == 3)
                                 <th>Edit</th>
                             @endif
                         </tr>
@@ -61,7 +55,7 @@
                                     </a>
                                 </td>
                                 <td class="label-update-date" style="color:#FF0000">{{ $file['update_date'] }}</td>
-                                @if($admin)
+                                @if(Auth::user()->approve == 3)
                                     <td>
                                         <a href="#" style="font-size: 20px;" class="btn-edit">
                                             <i class="fa fa-edit" style="vertical-align: middle;"></i>
@@ -75,9 +69,11 @@
                     <div id="myDIV" style="display: none;"><p>
                         <h4>
                             Change logs
+                            @if(Auth::user()->approve == 3)
                             <a href="#" class="log-add" style="padding-left:30px; font-size:12px;">
                                 Add a log
                             </a>
+                                @endif
                         </h4>
 
 
@@ -89,8 +85,10 @@
                                 <li log-id = "{{ $log['id'] }}" >
                                     <div class="log-control" style="display: flex">
                                         <span>{{ $log['log'] }}</span>
+                                        @if(Auth::user()->approve == 3)
                                         <a href="#" style="margin-left: 10px; font-size: 12px;" class="log-edit">edit</a>
                                         <a href="#" style="margin-left: 5px; font-size: 12px;" class="log-delete">delete</a>
+                                            @endif
                                     </div>
                                 </li>
                             @endforeach

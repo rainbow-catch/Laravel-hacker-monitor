@@ -58,7 +58,33 @@ class User extends Authenticatable
 
     public function Role() {
 //        return $this->hasOne('App\Models\Role');
-        return Role::where('guest_id', $this->id)->first();
+        if($this->approve == 1)
+            return Role::where('guest_id', $this->id)->first();
+        return null;
+    }
+
+    public function CanSee($role) {
+        if($this->approve > 1)
+            return true;
+        return $this->Role()[$role];
+    }
+
+    public function parent() {
+        return $this->belongsTo('App\Models\User', 'parent_id')->first();
+    }
+
+    public function enddate() {
+        if($this->approve != 1)
+            return $this->enddate;
+        else
+            return $this->parent()->enddate;
+    }
+
+    public function ip() {
+        if($this->approve != 1)
+            return $this->ip;
+        else
+            return $this->parent()->ip;
     }
 
     public function GetRoleString() {

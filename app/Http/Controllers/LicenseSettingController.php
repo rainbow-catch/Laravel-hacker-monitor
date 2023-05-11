@@ -19,7 +19,7 @@ class LicenseSettingController extends Controller
     {
         $id = Auth::user()->id;
         $user = User::find($id);
-        $guests = User::where('approve', 3)->where('parent_id', $id)->get();
+        $guests = User::where('approve', 1)->where('parent_id', $id)->get();
         return view('admin.licenseSetting', compact(['guests', 'user']));
     }
 }

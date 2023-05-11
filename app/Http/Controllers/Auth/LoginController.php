@@ -35,8 +35,7 @@ class LoginController extends Controller
     {
         $email = $request->email;
         $user = User::where('email', $email)->first();
-        if($user && $user->approve != "0")
-        {
+        if ($user && $user->approve != "0") {
             if ($user->enddate != null && $user->enddate < Date::now()) {
                 $approveUpdate = [
                     'approve' => "0"
@@ -61,14 +60,15 @@ class LoginController extends Controller
                 if ($request->hasSession()) {
                     $request->session()->put('auth.password_confirmed_at', time());
                 }
-                if(json_decode($user->last_login) == null) $lastLogin = null;
-                else $lastLogin = json_decode($user->last_login)->current_login;
+                if (json_decode($user->last_login) == null) $old = null;
+                else $old = json_decode($user->last_login);
                 $user->last_login = json_encode([
-                   'current_login' => [
-                       "PC" => gethostname(),
-                       "IP" => $_SERVER['REMOTE_ADDR']
-                   ],
-                   'last_login' => $lastLogin
+                    'current_login' => [
+                        "PC" => gethostname(),
+                        "IP" => $_SERVER['REMOTE_ADDR']
+                    ],
+                    'last_login' => $old != null? $old->current_login: null,
+                    'ftp' => $old != null? $old->ftp: null
                 ]);
                 $user->save();
                 return $this->sendLoginResponse($request);
@@ -81,8 +81,7 @@ class LoginController extends Controller
 
 
             return redirect('/login')->with('message', 'Password Incorrect');
-        }
-        else if( !$user )
+        } else if (!$user)
             return redirect('/login')->with('message', 'Do not Exist');
         else
             return redirect('/login')->with('message', 'Your membership has expired');

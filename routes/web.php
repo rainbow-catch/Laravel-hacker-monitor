@@ -1,5 +1,6 @@
 <?php
-
+define('ADMIN_ROLE', 3);
+define('PRIMARY_ROLE', 2);
 use App\Http\Controllers\ConnectLogController;
 use App\Http\Controllers\FTPController;
 use App\Http\Controllers\HomeController;
@@ -28,8 +29,6 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/ftp', [FTPController::class, 'index'])->name('ftp');
 
 Route::group(['prefix' => 'ftp'], function () {
     Route::post('/login', [FTPController::class, 'login'])->name('ftplogin');
@@ -38,46 +37,71 @@ Route::group(['prefix' => 'ftp'], function () {
     Route::get('/uninstall', [FTPController::class, 'uninstall']);
 });
 
-Route::group(['prefix' => 'admin'], function () {
-Route::get('/users',  [UserManageController::class, 'index'])->name('usersManagement')->middleware('auth');
-Route::post('/users/changePassword',  [UserManageController::class, 'changePassword'])->name('changePassword')->middleware('auth');
-Route::post('/users/changeAvatar',  [UserManageController::class, 'changeAvatar'])->name('changeAvatar')->middleware('auth');
-Route::get('/getUsers',  [UserManageController::class, 'getUser'])->name('getUsers')->middleware('auth');
-Route::get('/user_save',  [UserManageController::class, 'user_save'])->name('userSaved')->middleware('auth');
-Route::get('/guest_save',  [UserManageController::class, 'guest_save'])->name('guestSaved')->middleware('auth');
-Route::get('/user_delete',  [UserManageController::class, 'user_delete'])->name('user_delete')->middleware('auth');
-Route::get('/approve',  [UserManageController::class, 'approve'])->name('approve')->middleware('auth');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/ftp', [FTPController::class, 'index'])->name('ftp');
 
-Route::get('/licenseSetting', [LicenseSettingController::class, 'index'])->name('licenseSetting')->middleware('auth');
+    Route::group(['middleware' => 'checkPermission:see_home'], function() {
+        Route::get('/home', [HomeController::class, 'index'])->name('home');
+    });
+
+    Route::group(['middleware' => 'checkRole:'.ADMIN_ROLE], function () {
+        Route::group(['prefix' => 'admin'], function(){
+            Route::get('/users', [UserManageController::class, 'index'])->name('usersManagement');
+            Route::post('/users/changePassword', [UserManageController::class, 'changePassword'])->name('changePassword');
+            Route::post('/users/changeAvatar', [UserManageController::class, 'changeAvatar'])->name('changeAvatar');
+            Route::get('/getUsers', [UserManageController::class, 'getUser'])->name('getUsers');
+            Route::get('/user_save', [UserManageController::class, 'user_save'])->name('userSaved');
+            Route::get('/guest_save', [UserManageController::class, 'guest_save'])->name('guestSaved');
+            Route::get('/user_delete', [UserManageController::class, 'user_delete'])->name('user_delete');
+            Route::get('/approve', [UserManageController::class, 'approve'])->name('approve');
+        });
+
+        Route::post('/downloads/save/{id}', [DownController::class, 'save'])->name('downloads.save');
+        Route::post('/downloads/logs/save', [DownController::class, 'saveLog'])->name('downloads.logs.save');
+        Route::post('/downloads/logs/save/{id}', [DownController::class, 'saveLog'])->name('downloads.logs.save');
+        Route::delete('/downloads/logs/delete/{id}', [DownController::class, 'deleteLog'])->name('downloads.logs.delete');
+    });
+
+    Route::group(['middleware' => 'checkPermission:see_screenshots'], function() {
+        Route::get('/screenshots', [ScreenShotController::class, 'folders'])->name('screenshots');
+        Route::get('/screenimages/{folder}', [ScreenShotController::class, 'images'])->name('screenimages');
+        Route::post('/screenshot', [ScreenShotController::class, 'image'])->name('screenshot');
+    });
+
+    Route::group(['middleware' => 'checkPermission:see_hack_logs'], function() {
+        Route::get('/logs', [LogController::class, 'logfiles'])->name('logs');
+        Route::get('/log/{file}', [LogController::class, 'logcontent']);
+    });
+
+    Route::group(['middleware' => 'checkPermission:see_connect_logs'], function() {
+        Route::get('/cnlogs', [ConnectLogController::class, 'logfiles'])->name('cnlogs');
+        Route::get('/cnlog/{file}', [ConnectLogController::class, 'logcontent']);
+    });
+
+    Route::group(['middleware' => 'checkPermission:see_tools_download'], function() {
+        Route::get('/downloads', [DownController::class, 'index'])->name('downloads');
+    });
+
+    Route::group(['middleware' => 'checkPermission:ban_hardware'], function() {
+        Route::post('/ban/add', [LogController::class, 'banadd']);
+        Route::post('/ban/delete', [LogController::class, 'bandelete']);
+    });
+
+
+    Route::group(['middleware' => 'checkPermission:see_guides'], function() {
+        Route::get('/guides', [LogController2::class, 'index'])->name('guides');
+    });
+
+    Route::group(['middleware' => 'checkRole:'.PRIMARY_ROLE."|".ADMIN_ROLE], function () {
+        Route::get('/screenshots/delete', [ScreenShotController::class, 'delfolder']);
+        Route::post('/screenshot/delete', [ScreenShotController::class, 'delete'])->name('screenshot');
+
+        Route::post('/log/delete', [LogController::class, 'delete']);
+
+        Route::post('/cnlog/delete', [ConnectLogController::class, 'delete']);
+
+        Route::get('/license', [LicenseController::class, 'index'])->name('license');
+        Route::get('/license/generate', [LicenseController::class, 'generate']);
+        Route::get('/licenseSetting', [LicenseSettingController::class, 'index'])->name('licenseSetting');
+    });
 });
-
-Route::get('/screenshots',  [ScreenShotController::class, 'folders'])->name('screenshots')->middleware('auth');
-Route::get('/screenshots/delete',  [ScreenShotController::class, 'delfolder'])->middleware('auth');
-Route::get('/screenimages/{folder}',  [ScreenShotController::class, 'images'])->name('screenimages')->middleware('auth');
-Route::post('/screenshot',  [ScreenShotController::class, 'image'])->name('screenshot')->middleware('auth');
-Route::post('/screenshot/delete',  [ScreenShotController::class, 'delete'])->name('screenshot')->middleware('auth');
-
-Route::get('/logs',  [LogController::class, 'logfiles'])->name('logs')->middleware('auth');
-Route::get('/log/{file}',  [LogController::class, 'logcontent'])->middleware('auth');
-Route::post('/log/delete',  [LogController::class, 'delete'])->middleware('auth');
-
-Route::get('/cnlogs',  [ConnectLogController::class, 'logfiles'])->name('cnlogs')->middleware('auth');
-Route::get('/cnlog/{file}',  [ConnectLogController::class, 'logcontent'])->middleware('auth');
-Route::post('/cnlog/delete',  [ConnectLogController::class, 'delete'])->middleware('auth');
-
-Route::post('/ban/add',  [LogController::class, 'banadd'])->middleware('auth');
-Route::post('/ban/delete',  [LogController::class, 'bandelete'])->middleware('auth');
-
-Route::get('/guides', [LogController2::class, 'index'])->name('guides');
-
-Route::get('/downloads', [DownController::class, 'index'])->name('downloads');
-Route::post('/downloads/save/{id}', [DownController::class, 'save'])->name('downloads.save');
-Route::post('/downloads/logs/save', [DownController::class, 'saveLog'])->name('downloads.logs.save');
-Route::post('/downloads/logs/save/{id}', [DownController::class, 'saveLog'])->name('downloads.logs.save');
-Route::delete('/downloads/logs/delete/{id}', [DownController::class, 'deleteLog'])->name('downloads.logs.delete');
-
-Route::get('/license', [LicenseController::class, 'index'])->name('license');
-Route::get('/license/generate', [LicenseController::class, 'generate']);
-
-
-

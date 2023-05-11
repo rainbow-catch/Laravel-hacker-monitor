@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -24,8 +25,9 @@ class HomeController extends Controller
     public function index(Request $request)
     {
         $conn = $this->checkFtp($request);
-        if ($conn == null)
+        if ($conn == null){
             return redirect('/ftp');
+        }
 
         $banExist = $this->is_folder($conn, 'BanHwID');
         $logsExist = $this->is_folder($conn, 'Logs');

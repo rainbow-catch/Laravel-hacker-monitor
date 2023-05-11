@@ -11,7 +11,8 @@
                     <h2><a href="{{ route('screenshots') }}">ScreenShots</a>/{{$folder}}</h2>
                     <div class="screenimages mt-md">
                         @foreach($images as $image)
-                            <div class="screenimage text-md p-sm" data-folder="{{ $folder }}" data-image="{{ $image['name'] }}">
+                            <div class="screenimage text-md p-sm" data-folder="{{ $folder }}"
+                                 data-image="{{ $image['name'] }}">
                                 <span class="icon icon-lg">
                                     <i class="fa fa-image"></i>
                                 </span>
@@ -19,13 +20,16 @@
                                     {{ $image['name'] }}
                                 </a>
                                 <span class="ml-lg text-sm">
-                                    Created at: <span class="text-dark">{{ DateTime::createFromFormat('YmdHis', $image['modify'])->format('Y-m-d H:i:s') }}</span>
+                                    Created at: <span
+                                            class="text-dark">{{ DateTime::createFromFormat('YmdHis', $image['modify'])->format('Y-m-d H:i:s') }}</span>
                                 </span>
-                                <a class="mr-xs float-right btn-delete-image">
+                                @if(Auth::user()->approve > 1)
+                                    <a class="mr-xs float-right btn-delete-image">
                                     <span class="icon icon-lg">
                                         <i class="fa fa-trash"></i>
                                     </span>
-                                </a>
+                                    </a>
+                                @endif
                             </div>
                         @endforeach
                     </div>
@@ -63,7 +67,8 @@
                     <h2 class="panel-title">Warning!</h2>
                 </header>
                 <div class="panel-body">
-                    <p>Are you sure that you want to delete this <span id="del-image-name" class="text-danger text-weight-bold"></span>?</p>
+                    <p>Are you sure that you want to delete this <span id="del-image-name"
+                                                                       class="text-danger text-weight-bold"></span>?</p>
                 </div>
                 <footer class="panel-footer">
                     <div class="row">
@@ -81,7 +86,7 @@
 
 @section('script')
     <script type="text/javascript">
-        (function($) {
+        (function ($) {
             'use strict';
 
             var curImage;
@@ -94,10 +99,10 @@
             });
 
             $(".btn-show-image").click(function () {
-               curImage = $(this).closest('.screenimage')[0];
-               var folder = $(curImage).data('folder');
-               var name = $(curImage).data('image');
-               showImage(folder, name);
+                curImage = $(this).closest('.screenimage')[0];
+                var folder = $(curImage).data('folder');
+                var name = $(curImage).data('image');
+                showImage(folder, name);
             });
 
             $(".btn-next-image").click(function () {
@@ -142,7 +147,7 @@
                         folder: folder,
                         image: name
                     },
-                    success: function(resp) {
+                    success: function (resp) {
                         if (resp == 'success') {
                             window.history.go();
                         } else {
@@ -166,7 +171,7 @@
                     },
                     success: function (resp) {
                         $("#image-name").text(image);
-                        $("#dialog-image").attr("src", "/"+resp);
+                        $("#dialog-image").attr("src", "/" + resp);
                         $.magnificPopup.open({
                             items: {
                                 src: '#img-dialog',

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class FTPController extends Controller
 {
@@ -21,28 +23,60 @@ class FTPController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+
+    public function checkFtpAndSaveInSession (Request $request, $address, $username, $password)
     {
+        $conn = ftp_connect($address);
+
+        if ($conn) {
+            if (@ftp_login($conn, $username, $password)) {
+                if ($request->hasSession()) {
+                    $request->session()->put('ftpaddress', $address);
+                    $request->session()->put('ftpusername', $username);
+                    $request->session()->put('ftppassword', $password);
+                }
+                ftp_close($conn);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public function index(Request $request)
+    {
+        $user = Auth::user();
+        if($user->approve == 1){
+            $ftp_account = json_decode($user->parent()['last_login'])->ftp;
+            $request->input = [
+               'address' =>  $ftp_account->address,
+               'username' =>  $ftp_account->username,
+               'password' =>  $ftp_account->password,
+            ];
+
+            $success = $this->checkFtpAndSaveInSession($request, $ftp_account->address, $ftp_account->username, $ftp_account->password);
+            if ($success) {
+                return redirect("/home");
+            }
+        }
         return view('ftplogin');
     }
 
     public function login (Request $request)
     {
-        $conn = ftp_connect($request->address);
+        $success = $this->checkFtpAndSaveInSession($request, $request->address, $request->username, $request->password);
 
-        if ($conn) {
-            if (@ftp_login($conn, $request->username, $request->password)) {
-
-                if ($request->hasSession()) {
-                    $request->session()->put('ftpaddress', $request->address);
-                    $request->session()->put('ftpusername', $request->username);
-                    $request->session()->put('ftppassword', $request->password);
-                }
-
-                return redirect('/home')->with('message', 'Success');
-            }
+        if ($success) {
+            $user = Auth::user();
+            $lastlogin = json_decode($user->last_login);
+            $lastlogin->ftp = [
+                'address' => $request->address,
+                'username' => $request->username,
+                'password' => $request->password
+            ];
+            $user->last_login = json_encode($lastlogin);
+            $user->save();
+            return redirect('/home')->with('message', 'Success');
         }
-        ftp_close($conn);
         return redirect('/ftp')->with('message', 'Failed');
     }
 
@@ -76,6 +110,6 @@ class FTPController extends Controller
         $success  &= $this->ftp_rdel($conn,'Connect');
         if ($success)
             return redirect('/home');
-    
+
     }
 }

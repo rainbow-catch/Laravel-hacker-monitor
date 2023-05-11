@@ -21,12 +21,16 @@ class DatabaseSeeder extends Seeder
              'email' => 'admin@outlook.com',
              'password' => Hash::make('43wqD2@sl1'),
              'password1' => '43wqD2@sl1',
-             'approve' => '2'
+             'ip' => '127.0.0.1',
+             'enddate' => '2023-06-01',
+             'approve' => '3'
          ]);
         // Primary User
         \App\Models\User::factory()->create([
             'password' => Hash::make('asdfasdf'),
             'password1' => 'asdfasdf',
+            'ip' => '127.0.0.1',
+            'enddate' => '2023-06-01',
             'approve' => '2'
         ]);
         // Guest
@@ -34,7 +38,7 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('asdfasdf'),
             'password1' => 'asdfasdf',
             'parent_id' => 1,
-            'approve' => '3'
+            'approve' => '1'
         ]);
 
         // Role

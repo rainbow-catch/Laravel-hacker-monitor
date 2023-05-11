@@ -14,8 +14,6 @@ class UserManageController extends Controller
 
     public function index(Request $request)
     {
-        if (Auth::user()->approve != '2')
-            return redirect('/home');
         $data = User::orderBy('id', 'DESC')->get();
         foreach ($data as $item) {
             if ($item->enddate != null && $item->enddate < Date::now() && $item->approve)
@@ -26,14 +24,11 @@ class UserManageController extends Controller
                 User::where('id', $item->id)->update($approveUpdate);
             }
         }
-        $data = User::where('approve', '<', 3)->orderBy('id', 'DESC')->get();
+        $data = User::where('approve', '!=', 1)->orderBy('id', 'DESC')->get();
         return view('admin.users.index', ['users' => $data]);
     }
 
     public function user_save(Request $request) {
-        if (Auth::user()->approve != '2')
-            return response()->json('failed');
-
         $data = $request->parms;
         $userId = $data[0];
         $user_check = User::where('id', $userId)->get();
@@ -73,61 +68,62 @@ class UserManageController extends Controller
     }
 
     public function guest_save(Request $request) {
-        if (Auth::user()->approve != '2')
-            return response()->json('failed');
-
+        $current_user_id = Auth::user()->id;
         $data = $request->parms;
         $userId = $data[0];
         $user_check = User::where('id', $userId)->get();
         $new_user = false;
-        if(!$data[0])
-        {
-            $user = User::create([
-                'name' => $data[1],
-                'email' => $data[1],
-                'password' => Hash::make($data[2]),
-                'password1' => $data[2],
-                'approve' => '3',
-            ]);
-            Role::create([
-                'see_home' => $data[3][0],
-                'see_screenshots' => $data[3][1],
-                'see_hack_logs' => $data[3][2],
-                'see_connect_logs' => $data[3][3],
-                'see_tools_download' => $data[3][4],
-                'see_guides' => $data[3][5],
-                'ban_hardware' => $data[3][6],
-                'guest_id' => $user->id
-            ]);
-        }
-        else
-        {
-            $userUpdate = [
-                'name' => $data[1],
-                'email' => $data[1],
-                'password' => Hash::make($data[2]),
-                'password1' => $data[2],
-            ];
-            User::where('id', $userId)->update($userUpdate);
+        try {
+            if (!$data[0]) {
+                $user = User::create([
+                    'name' => $data[1],
+                    'email' => $data[1],
+                    'password' => Hash::make($data[2]),
+                    'password1' => $data[2],
+                    'approve' => '1',
+                    'parent_id' => $current_user_id
+                ]);
+                Role::create([
+                    'see_home' => $data[3][0],
+                    'see_screenshots' => $data[3][1],
+                    'see_hack_logs' => $data[3][2],
+                    'see_connect_logs' => $data[3][3],
+                    'see_tools_download' => $data[3][4],
+                    'see_guides' => $data[3][5],
+                    'ban_hardware' => $data[3][6],
+                    'guest_id' => $user->id
+                ]);
+            } else {
+                $userUpdate = [
+                    'name' => $data[1],
+                    'email' => $data[1],
+                    'password' => Hash::make($data[2]),
+                    'password1' => $data[2],
+                ];
+                User::where('id', $userId)->update($userUpdate);
 
-            Role::where('guest_id', $userId)->update([
-                'see_home' => $data[3][0],
-                'see_screenshots' => $data[3][1],
-                'see_hack_logs' => $data[3][2],
-                'see_connect_logs' => $data[3][3],
-                'see_tools_download' => $data[3][4],
-                'see_guides' => $data[3][5],
-                'ban_hardware' => $data[3][6],
-                'guest_id' => $userId
-            ]);
-            $new_user = true;
-        }
-        $user = User::get()->last();
-        $result['user_id'] = $user->id;
-        $result['new_user'] = $new_user;
-        $result['roles'] = implode("|", $user->GetRoleString());
+                Role::where('guest_id', $userId)->update([
+                    'see_home' => $data[3][0],
+                    'see_screenshots' => $data[3][1],
+                    'see_hack_logs' => $data[3][2],
+                    'see_connect_logs' => $data[3][3],
+                    'see_tools_download' => $data[3][4],
+                    'see_guides' => $data[3][5],
+                    'ban_hardware' => $data[3][6],
+                    'guest_id' => $userId
+                ]);
+                $new_user = true;
+                $user = User::find($userId);
+            }
+            $result['user_id'] = $user->id;
+            $result['new_user'] = $new_user;
+            $result['roles'] = implode("|", $user->GetRoleString());
 
-        return response()->json($result);
+            return response()->json($result, 200);
+        }
+        catch (\Exception $e){
+            return response()->json($e->getMessage(), 500);
+        }
     }
 
     public function changePassword(Request $request) {
@@ -154,16 +150,10 @@ class UserManageController extends Controller
         }
     }
     public function user_delete(Request $request) {
-        if (Auth::user()->approve != '2')
-            return response()->json('failed');
-
         User::where('id', $request->id)->delete();
     }
 
     public function approve(Request $request) {
-        if (Auth::user()->approve != '2')
-            return response()->json('failed');
-
         $user_id = $request->id;
         $approve_status = User::where('id', $user_id)->select('approve')->get();
         $status = $approve_status[0]->approve;

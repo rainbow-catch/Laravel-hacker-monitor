@@ -10,47 +10,54 @@
                 <div class="pl-sm">
                     <h2>Logs</h2>
                     <form id="search-form">
-                    <div class="row mt-md m-none">
-                        <div class="col-md-6 row">
-                            <label class="text-weight-bold col-md-3 mt-xs">From:</label>
-                            <div class="input-group col-md-9">
+                        <div class="row mt-md m-none">
+                            <div class="col-md-6 row">
+                                <label class="text-weight-bold col-md-3 mt-xs">From:</label>
+                                <div class="input-group col-md-9">
                                 <span class="input-group-addon">
                                     <i class="fa fa-calendar"></i>
                                 </span>
-                                <input type="text" data-plugin-datepicker="" class="form-control datepicker" name="date-start" value="{{$request['date-start']}}"/>
-                                <span class="input-group-addon">
+                                    <input type="text" data-plugin-datepicker="" class="form-control datepicker"
+                                           name="date-start" value="{{$request['date-start']}}"/>
+                                    <span class="input-group-addon">
                                     <i class="fa fa-clock-o"></i>
                                 </span>
-                                <input type="text" data-plugin-timepicker="" data-plugin-options='{"showMeridian":false}' class="form-control" name="time-start" value="{{$request['time-start']}}"/>
+                                    <input type="text" data-plugin-timepicker=""
+                                           data-plugin-options='{"showMeridian":false}' class="form-control"
+                                           name="time-start" value="{{$request['time-start']}}"/>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 row">
-                            <label class="text-weight-bold col-md-3 mt-xs">To:</label>
-                            <div class="input-group col-md-9">
+                            <div class="col-md-6 row">
+                                <label class="text-weight-bold col-md-3 mt-xs">To:</label>
+                                <div class="input-group col-md-9">
                                 <span class="input-group-addon">
                                     <i class="fa fa-calendar"></i>
                                 </span>
-                                <input type="text" data-plugin-datepicker="" class="form-control datepicker" name="date-end" value="{{$request['date-end']}}"/>
-                                <span class="input-group-addon">
+                                    <input type="text" data-plugin-datepicker="" class="form-control datepicker"
+                                           name="date-end" value="{{$request['date-end']}}"/>
+                                    <span class="input-group-addon">
                                     <i class="fa fa-clock-o"></i>
                                 </span>
-                                <input type="text" data-plugin-timepicker="" data-plugin-options='{"showMeridian":false}' class="form-control" name="time-end" value="{{$request['time-end']}}" />
+                                    <input type="text" data-plugin-timepicker=""
+                                           data-plugin-options='{"showMeridian":false}' class="form-control"
+                                           name="time-end" value="{{$request['time-end']}}"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row m-none">
-                        <div class="col-md-6 row mt-md">
-                            <label class="text-weight-bold col-md-3 mt-xs">Search:</label>
-                            <div class="col-md-9 p-none">
-                                <input type="text" class="form-control" placeholder="Search..." name="search" value="{{$request['search']}}"/>
+                        <div class="row m-none">
+                            <div class="col-md-6 row mt-md">
+                                <label class="text-weight-bold col-md-3 mt-xs">Search:</label>
+                                <div class="col-md-9 p-none">
+                                    <input type="text" class="form-control" placeholder="Search..." name="search"
+                                           value="{{$request['search']}}"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-md">
+                                <button class="btn btn-default">Search</button>
+                                <button class="btn btn-primary ml-md btn-prev">Prev</button>
+                                <button class="btn btn-primary ml-sm btn-next">Next</button>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-md">
-                            <button class="btn btn-default">Search</button>
-                            <button class="btn btn-primary ml-md btn-prev">Prev</button>
-                            <button class="btn btn-primary ml-sm btn-next">Next</button>
-                        </div>
-                    </div>
                     </form>
                     <div class="row m-none">
                         <div class="col-md-2 logs p-none logbox-container mt-md">
@@ -60,7 +67,8 @@
                                         <i class="fa fa-file"></i>
                                     </span>
                                     <div>
-                                        <a class="text-weight-bold ml-xs btn-logfile {{ $curfile == $file['name'] ? "text-danger current-log" : ""}}" href="#"
+                                        <a class="text-weight-bold ml-xs btn-logfile {{ $curfile == $file['name'] ? "text-danger current-log" : ""}}"
+                                           href="#"
                                            data-file="{{$file['name']}}">
                                             {{ $file['name'] }}
                                         </a>
@@ -68,11 +76,14 @@
                                             {{ DateTime::createFromFormat('YmdHis', $file['modify'])->format('Y-m-d H:i:s') }}
                                         </span>
                                     </div>
-                                    <a class="ml-auto mr-xs float-right btn-delete-logfile" data-file="{{$file['name']}}">
-                                        <span class="icon icon-lg">
-                                            <i class="fa fa-trash"></i>
-                                        </span>
-                                    </a>
+                                    @if(Auth::user()->approve > 1)
+                                        <a class="ml-auto mr-xs float-right btn-delete-logfile"
+                                           data-file="{{$file['name']}}">
+                                            <span class="icon icon-lg">
+                                                <i class="fa fa-trash"></i>
+                                            </span>
+                                        </a>
+                                    @endif
                                 </div>
                             @endforeach
                         </div>
@@ -90,26 +101,34 @@
                                         <span class="log-text">{{ $content['path'] }}</span> <br/>
                                         <span class="log-section text-warning">HardwareID:</span>
                                         <span class="log-text">{{ $content['hardware'] }}</span>
-                                        @if(!$content['isbanned'])
-                                            <button class="btn btn-default btn-xs ml-md btn-ban" data-hardware="{{$content['hardware']}}">
-                                                Ban
-                                            </button>
-                                        @else
-                                            <button class="btn btn-default btn-xs ml-md btn-un-ban" data-hardware="{{$content['hardware']}}">
-                                                Un-Ban
-                                            </button>
+                                        @if(Auth::user()->CanSee('ban_hardware'))
+                                            @if(!$content['isbanned'])
+                                                <button class="btn btn-default btn-xs ml-md btn-ban"
+                                                        data-hardware="{{$content['hardware']}}">
+                                                    Ban
+                                                </button>
+                                            @else
+                                                <button class="btn btn-default btn-xs ml-md btn-un-ban"
+                                                        data-hardware="{{$content['hardware']}}">
+                                                    Un-Ban
+                                                </button>
+                                            @endif
                                         @endif
                                         <br/>
                                         <span class="log-section text-warning text-warning">HardwareID v2:</span>
                                         <span class="log-text">{{ $content['hardwarev2'] }}</span>
-                                        @if(!$content['isbanned2'])
-                                            <button class="btn btn-default btn-xs ml-md btn-ban" data-hardware="{{$content['hardwarev2']}}">
-                                                Ban
-                                            </button>
-                                        @else
-                                            <button class="btn btn-default btn-xs ml-md btn-un-ban" data-hardware="{{$content['hardwarev2']}}">
-                                                Un-Ban
-                                            </button>
+                                        @if(Auth::user()->CanSee('ban_hardware'))
+                                            @if(!$content['isbanned2'])
+                                                <button class="btn btn-default btn-xs ml-md btn-ban"
+                                                        data-hardware="{{$content['hardwarev2']}}">
+                                                    Ban
+                                                </button>
+                                            @else
+                                                <button class="btn btn-default btn-xs ml-md btn-un-ban"
+                                                        data-hardware="{{$content['hardwarev2']}}">
+                                                    Un-Ban
+                                                </button>
+                                            @endif
                                         @endif
                                         <br/>
                                         <span class="log-section text-primary">Account:</span>
@@ -127,22 +146,26 @@
                             @foreach($banlist as $ban)
                                 <div class="banitem">
                                     <span>{{$ban}}</span>
-                                    <a class="btn-delete-ban mr-xs float-right " data-hardware="{{ $ban }}">
-                                        <span class="icon icon-lg">
-                                            <i class="fa fa-trash"></i>
-                                        </span>
-                                    </a>
+                                    @if(Auth::user()->CanSee('ban_hardware'))
+                                        <a class="btn-delete-ban mr-xs float-right " data-hardware="{{ $ban }}">
+                                            <span class="icon icon-lg">
+                                                <i class="fa fa-trash"></i>
+                                            </span>
+                                        </a>
+                                    @endif
                                 </div>
                             @endforeach
-                            <div class="d-flex mt-sm">
-                                <label>Mac</label>
-                                <div class="mb-xs">
-                                    <input type="text" class="form-control form-control-sm" id="input-add-mac"/>
+                            @if(Auth::user()->CanSee('ban_hardware'))
+                                <div class="d-flex mt-sm">
+                                    <label>Mac</label>
+                                    <div class="mb-xs">
+                                        <input type="text" class="form-control form-control-sm" id="input-add-mac"/>
+                                    </div>
+                                    <div class="text-right">
+                                        <button class="btn btn-primary btn-sm" id="btn-add-mac"> Add Mac</button>
+                                    </div>
                                 </div>
-                                <div class="text-right">
-                                    <button class="btn btn-primary btn-sm" id="btn-add-mac"> Add Mac </button>
-                                </div>
-                            </div>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -157,7 +180,8 @@
                     <h2 class="panel-title">Warning!</h2>
                 </header>
                 <div class="panel-body">
-                    <p>Are you sure that you want to delete this <span id="del-logfile-name" class="text-danger text-weight-bold"></span>?</p>
+                    <p>Are you sure that you want to delete this <span id="del-logfile-name"
+                                                                       class="text-danger text-weight-bold"></span>?</p>
                 </div>
                 <footer class="panel-footer">
                     <div class="row">
@@ -175,12 +199,12 @@
 
 @section('script')
     <script type="text/javascript">
-        (function($) {
+        (function ($) {
             'use strict';
 
             var delLogFile;
 
-            function init () {
+            function init() {
                 $.ajaxSetup({
                     headers: {
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -192,7 +216,7 @@
 
             }
 
-            function onResponse (resp) {
+            function onResponse(resp) {
                 if (resp == 'success') {
                     window.history.go();
                 } else {
@@ -201,13 +225,12 @@
                 }
             }
 
-            function initEvents () {
-                $("#btn-add-mac").click(function() {
+            function initEvents() {
+                $("#btn-add-mac").click(function () {
                     var hardware = $('#input-add-mac').val();
                     hardware = hardware.trim();
 
-                    if (hardware.length <= 0)
-                    {
+                    if (hardware.length <= 0) {
                         toastr.warning("The mac cannot be empty");
                         return;
                     }
@@ -222,7 +245,7 @@
                     });
                 });
 
-                $(".btn-ban").click(function() {
+                $(".btn-ban").click(function () {
                     var hardware = $(this).data('hardware');
 
                     showLoading();
@@ -237,7 +260,7 @@
                 });
 
 
-                $(".btn-un-ban").click(function() {
+                $(".btn-un-ban").click(function () {
                     var hardware = $(this).data('hardware');
 
                     showLoading();
@@ -251,7 +274,7 @@
                     });
                 });
 
-                $(".btn-delete-ban").click(function() {
+                $(".btn-delete-ban").click(function () {
                     var hardware = $(this).data('hardware');
                     showLoading();
                     $.ajax({
@@ -320,6 +343,7 @@
                     return false;
                 });
             }
+
             init();
             initEvents();
         }).apply(this, [jQuery]);

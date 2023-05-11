@@ -45,7 +45,7 @@
                                     <a href="#" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>
                                     <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
 
-                                    @if($user->approve != '2')
+                                    @if($user->approve != '3')
                                         <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
                                         <a href="#" class="on-default approve-row"><i  style="color: @if($user->approve == "1") deepskyblue @else red @endif" class="fa fa-check"></i></a>
                                     @endif

@@ -19,11 +19,13 @@
                                 <a class="text-weight-bold ml-xs" href="/screenimages/{{ $folder['name'] }}">
                                     {{ $folder['name'] }}
                                 </a>
-                                <a class="mr-xs float-right btn-delete-folder">
-                                    <span class="icon icon-lg">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </a>
+                                @if(Auth::user()->approve > 1)
+                                    <a class="mr-xs float-right btn-delete-folder">
+                                        <span class="icon icon-lg">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </a>
+                                @endif
                             </div>
                         @endforeach
                     </div>
@@ -39,7 +41,9 @@
                     <h2 class="panel-title">Warning!</h2>
                 </header>
                 <div class="panel-body">
-                    <p>Are you sure that you want to delete this folder <span id="del-folder-name" class="text-danger text-weight-bold"></span>?</p>
+                    <p>Are you sure that you want to delete this folder <span id="del-folder-name"
+                                                                              class="text-danger text-weight-bold"></span>?
+                    </p>
                 </div>
                 <footer class="panel-footer">
                     <div class="row">
@@ -53,14 +57,14 @@
         </div>
         <!-- end: page -->
     </section>
-        <!-- end: page -->
+    <!-- end: page -->
     </section>
 @endsection
 
 @section('script')
 
     <script type="text/javascript">
-        (function($) {
+        (function ($) {
             'use strict';
 
             var delFolder;
@@ -89,7 +93,7 @@
                     data: {
                         folder: folder,
                     },
-                    success: function(resp) {
+                    success: function (resp) {
                         if (resp == 'success') {
                             window.history.go();
                         } else {
