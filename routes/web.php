@@ -1,6 +1,4 @@
 <?php
-define('ADMIN_ROLE', 3);
-define('PRIMARY_ROLE', 2);
 use App\Http\Controllers\ConnectLogController;
 use App\Http\Controllers\FTPController;
 use App\Http\Controllers\HomeController;
@@ -44,15 +42,11 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('/home', [HomeController::class, 'index'])->name('home');
     });
 
-    Route::group(['middleware' => 'checkRole:'.ADMIN_ROLE], function () {
+    Route::group(['middleware' => 'checkRole:3'], function () {
         Route::group(['prefix' => 'admin'], function(){
             Route::get('/users', [UserManageController::class, 'index'])->name('usersManagement');
-            Route::post('/users/changePassword', [UserManageController::class, 'changePassword'])->name('changePassword');
-            Route::post('/users/changeAvatar', [UserManageController::class, 'changeAvatar'])->name('changeAvatar');
-            Route::get('/getUsers', [UserManageController::class, 'getUser'])->name('getUsers');
             Route::get('/user_save', [UserManageController::class, 'user_save'])->name('userSaved');
-            Route::get('/guest_save', [UserManageController::class, 'guest_save'])->name('guestSaved');
-            Route::get('/user_delete', [UserManageController::class, 'user_delete'])->name('user_delete');
+            Route::get('/getUsers', [UserManageController::class, 'getUser'])->name('getUsers');
             Route::get('/approve', [UserManageController::class, 'approve'])->name('approve');
         });
 
@@ -92,7 +86,12 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('/guides', [LogController2::class, 'index'])->name('guides');
     });
 
-    Route::group(['middleware' => 'checkRole:'.PRIMARY_ROLE."|".ADMIN_ROLE], function () {
+    Route::group(['middleware' => 'checkRole:2|3'], function () {
+        Route::post('/users/changePassword', [UserManageController::class, 'changePassword'])->name('changePassword');
+        Route::post('/users/changeAvatar', [UserManageController::class, 'changeAvatar'])->name('changeAvatar');
+        Route::get('/guest_save', [UserManageController::class, 'guest_save'])->name('guestSaved');
+        Route::get('/user_delete', [UserManageController::class, 'user_delete'])->name('user_delete');
+
         Route::get('/screenshots/delete', [ScreenShotController::class, 'delfolder']);
         Route::post('/screenshot/delete', [ScreenShotController::class, 'delete'])->name('screenshot');
 

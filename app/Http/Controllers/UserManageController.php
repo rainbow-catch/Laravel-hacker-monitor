@@ -75,6 +75,9 @@ class UserManageController extends Controller
         $new_user = false;
         try {
             if (!$data[0]) {
+                if(Count(Auth::user()->children()) >= 3){
+                    return response()->json("Primary user can have 3 guest at max.", 500);
+                }
                 $user = User::create([
                     'name' => $data[1],
                     'email' => $data[1],
@@ -159,7 +162,7 @@ class UserManageController extends Controller
         $status = $approve_status[0]->approve;
         if( $status == "0")
             $approveUpdate = [
-                'approve' => "1"
+                'approve' => "2"
             ];
         else
             $approveUpdate = [

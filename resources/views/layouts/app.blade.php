@@ -173,7 +173,7 @@
                                     </a>
                                 </li>
                             @endif
-                            @if(Auth::user()->approve == '3')
+                            @if(Auth::user()->approve > 1)
                                 <li>
                                     <a href="{{ route('license') }}">
                                         <i class="fa fa-drivers-license" aria-hidden="true"></i>

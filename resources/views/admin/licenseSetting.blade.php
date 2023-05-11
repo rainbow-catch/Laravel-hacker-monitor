@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('style')
-    <link rel="stylesheet" href="{{ asset('assets/vendor/select2/css/select2.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/select2-bootstrap-theme/select2-bootstrap.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/jquery-datatables-bs3/assets/css/datatables.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/select2/css/select2.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/vendor/select2-bootstrap-theme/select2-bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/vendor/jquery-datatables-bs3/assets/css/datatables.css') }}"/>
 @endsection
 @section('content')
     <section role="main" class="content-body">
@@ -84,11 +84,14 @@
                     </h2>
 
                     <div class="row mt-md">
-                        <div class="col-sm-6">
-                            <div class="mb-md">
-                                <button id="addToTable" class="btn btn-primary">Add <i class="fa fa-plus"></i></button>
+                        @if(Count(Auth::user()->children()) < 3)
+                            <div class="col-sm-6">
+                                <div class="mb-md">
+                                    <button id="addToTable" class="btn btn-primary">Add <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        @endif
                     </div>
                     <table class="table table-bordered table-striped mb-none" id="datatable-editable" width="100%">
                         <thead>
@@ -149,7 +152,7 @@
 @section('script')
     <script src="{{ asset('assets/javascripts/tables/guests.datatables.editable.js') }}?v=1"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('input').addClass('form-control');
             $('select').addClass('form-control');
         });

@@ -73,6 +73,10 @@ class User extends Authenticatable
         return $this->belongsTo('App\Models\User', 'parent_id')->first();
     }
 
+    public function children() {
+        return $this->hasMany('App\Models\User', 'parent_id')->get();
+    }
+
     public function enddate() {
         if($this->approve != 1)
             return $this->enddate;

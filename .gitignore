@@ -5,6 +5,7 @@
 /public/assets/images
 /public/assets/logs
 /public/assets/Connect
+/public/temp.txt
 /storage/*.key
 /vendor
 .env

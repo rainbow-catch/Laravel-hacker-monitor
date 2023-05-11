@@ -17,7 +17,7 @@ Theme Version: 	1.7.0
         { id: "input-see-guides", label: "See Guides", value: "see_guides"},
         { id: "input-see-hardware", label: "Ban Hardware", value: "see_ban_hardware"},
     ].map(function(item){
-        return '<input type="checkbox" ' + (item.value=="see_home"?'disabled':'') + ' name="role[]" value="' + item.value + '" class="form-check mr-md" id="' + item.id + '">' +
+        return '<input type="checkbox" ' + (item.value=="see_home"?'disabled checked':'') + ' name="role[]" value="' + item.value + '" class="form-check mr-md" id="' + item.id + '">' +
             '<label for="' + item.id + '">' + item.label + '</label><br/>';
     }).join("\n");
     var EditableTable = {
@@ -162,7 +162,7 @@ Theme Version: 	1.7.0
                                     e.preventDefault();
 
                                     $.ajax({
-                                        url: '/admin/user_delete',
+                                        url: '/user_delete',
                                         method: 'GET',
                                         data: {
                                             id: itemId
@@ -304,7 +304,7 @@ Theme Version: 	1.7.0
     					console.log(parms)
                     var row_num, new_user;
 					$.ajax({
-						url: '/admin/guest_save',
+						url: '/guest_save',
 						method: 'GET',
 						data: {
 							parms: parms,
@@ -315,7 +315,7 @@ Theme Version: 	1.7.0
                             new_user = response.new_user;
                             roles = response.roles;
                             if(new_user == false)
-                                window.location.href="/admin/licenseSetting";
+                                window.location.href="/licenseSetting";
                             if ( $row.hasClass( 'adding' ) ) {
                                 this.$addButton.removeAttr( 'disabled' );
                                 $row.removeClass( 'adding' );
