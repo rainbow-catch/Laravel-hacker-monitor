@@ -185,7 +185,7 @@ Theme Version: 	1.7.0
 							id: itemId
 						},
 						success: function (res) {
-                            if(res.approve == "1")
+                            if(res.approve == "2")
                             {
                                 $row.find('td:last').find('a:last').find('i').css('color', 'deepskyblue');
                             }

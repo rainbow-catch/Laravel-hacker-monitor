@@ -47,7 +47,7 @@
 
                                     @if($user->approve != '3')
                                         <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
-                                        <a href="#" class="on-default approve-row"><i  style="color: @if($user->approve == "1") deepskyblue @else red @endif" class="fa fa-check"></i></a>
+                                        <a href="#" class="on-default approve-row"><i  style="color: @if($user->approve == "2") deepskyblue @else red @endif" class="fa fa-check"></i></a>
                                     @endif
                                 </td>
                             </tr>

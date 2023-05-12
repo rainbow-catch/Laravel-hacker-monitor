@@ -84,7 +84,7 @@
                     </h2>
 
                     <div class="row mt-md">
-                        @if(Count(Auth::user()->children()) < 3)
+                        @if(Auth::user()->approve == 3 || Count(Auth::user()->children()) < 3)
                             <div class="col-sm-6">
                                 <div class="mb-md">
                                     <button id="addToTable" class="btn btn-primary">Add <i class="fa fa-plus"></i>

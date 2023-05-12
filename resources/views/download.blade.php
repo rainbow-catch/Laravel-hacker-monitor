@@ -78,7 +78,8 @@
 
 
                         @if(count($logs)==0)
-                            No logs.
+                            <span id="no-log">No logs.</span>
+                            <ul></ul>
                         @else
                         <ul>
                             @foreach($logs as $log)
@@ -229,6 +230,8 @@
                             success: function (res) {
                                 var field = $('li[log-id=' + logId + ']');
                                 $(field).remove();
+                                if($('#myDIV ul li').length == 0)
+                                    $('#no-log').show();
                                 $.magnificPopup.close();
                                 toastr.success("Success")
                             },
@@ -278,6 +281,7 @@
                                 '                                    </div>\n' +
                                 '                                </li>';
                             $('#myDIV ul').append(code);
+                            $('#no-log').hide();
                         }
                         $.magnificPopup.close();
                         toastr.success("Success");
