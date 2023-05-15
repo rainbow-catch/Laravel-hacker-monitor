@@ -50,6 +50,8 @@ Route::group(['middleware' => 'auth'], function () {
             Route::get('/approve', [UserManageController::class, 'approve'])->name('approve');
         });
 
+        Route::delete('/downloads/delete/{id}', [DownController::class, 'delete'])->name('downloads.delete');
+        Route::post('/downloads/save', [DownController::class, 'save'])->name('downloads.save');
         Route::post('/downloads/save/{id}', [DownController::class, 'save'])->name('downloads.save');
         Route::post('/downloads/logs/save', [DownController::class, 'saveLog'])->name('downloads.logs.save');
         Route::post('/downloads/logs/save/{id}', [DownController::class, 'saveLog'])->name('downloads.logs.save');

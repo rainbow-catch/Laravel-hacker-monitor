@@ -42,18 +42,22 @@ class DownController extends Controller
         ]);
     }
 
-    public function save(Request $request, $id) {
+    public function save(Request $request, $id=null) {
         try {
-            $item = DownloadFile::find($id);
+            if($id==null) {
+                $item = new DownloadFile();
+            }
+            else $item = DownloadFile::find($id);
+
             $item->name = $request->input('name');
             $item->description = $request->input('description');
             $item->path = $request->input('path');
             $item->update_date = $request->input('update_date');
             $item->save();
-            return response()->json('success');
+            return response()->json(['new'=>$id==null], 200);
         }
         catch (Exception $e){
-            return response()->json('failed');
+            return response()->json('failed', 500);
         }
     }
     public function saveLog(Request $request, $id="") {
@@ -80,6 +84,18 @@ class DownController extends Controller
                 return response()->json('failed');
             }
             DownloadLog::destroy($id);
+            return response()->json('success');
+        }
+        catch (Exception $e){
+            return response()->json('failed');
+        }
+    }
+    public function delete($id) {
+        try {
+            if($id==""){
+                return response()->json('failed');
+            }
+            DownloadFile::destroy($id);
             return response()->json('success');
         }
         catch (Exception $e){

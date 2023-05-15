@@ -71,6 +71,13 @@
                             <label class="col-md-4">Icon image URL: </label>
                             <div class="col-md-8 text-left">
                                 <input class="form-control" id="input-avatar" value="{{ $user->avatar }}"/>
+                                <div class="pull-right">
+                                    Preview:
+                                    <div style="display:flex; border: solid 1px black; width:100px; height:100px">
+                                        <img id="avatar-preview" src="{{ $user->avatar }}" alt="{{ $user->avatar }}"
+                                             style=" max-height:100%; border: 1px solid gray; max-width: 100%"/>
+                                    </div>
+                                </div>
                                 <div class="mt-md">
                                     <button class="btn btn-primary" id="btn-avatar-save">Save</button>
                                 </div>
@@ -84,14 +91,12 @@
                     </h2>
 
                     <div class="row mt-md">
-                        @if(Auth::user()->approve == 3 || Count(Auth::user()->children()) < 3)
-                            <div class="col-sm-6">
-                                <div class="mb-md">
-                                    <button id="addToTable" class="btn btn-primary">Add <i class="fa fa-plus"></i>
-                                    </button>
-                                </div>
+                        <div class="col-sm-6">
+                            <div class="mb-md">
+                                <button id="addToTable" class="btn btn-primary">Add <i class="fa fa-plus"></i>
+                                </button>
                             </div>
-                        @endif
+                        </div>
                     </div>
                     <table class="table table-bordered table-striped mb-none" id="datatable-editable" width="100%">
                         <thead>
@@ -184,7 +189,7 @@
                         return;
                     }
                     $.ajax({
-                        url: '/admin/users/changePassword',
+                        url: '/users/changePassword',
                         method: 'POST',
                         data: {
                             password: $("#input-password").val(),
@@ -205,7 +210,7 @@
                         return;
                     }
                     $.ajax({
-                        url: '/admin/users/changeAvatar',
+                        url: '/users/changeAvatar',
                         method: 'POST',
                         data: {
                             avatar: newAvatar,
@@ -218,6 +223,11 @@
                             toastr.warning("Something failed");
                         }
                     });
+                });
+
+                $("#input-avatar").keyup(function () {
+                    $('#avatar-preview').attr('src', $(this).val());
+                    $('#avatar-preview').attr('alt', $(this).val());
                 });
             }
 

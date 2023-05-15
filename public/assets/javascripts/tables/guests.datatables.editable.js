@@ -344,7 +344,12 @@ Theme Version: 	1.7.0
                             }
 
                             _self.datatable.draw(true);
-						}
+						},
+                        error: function (res) {
+						    console.log(res);
+                            _self.rowCancel($row);
+                            toastr.warning(res.responseText.replaceAll('"', ''));
+                        }
 					});
 				},
 

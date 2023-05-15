@@ -25,8 +25,11 @@
             <div class="panel-body">
                 <div class="pl-sm">
                     <h3>Version information and change logs</h3>
-
-                    <div>
+                    <div class="mb-md">
+                        @if(Auth::user()->approve == 3)
+                        <button id="addTool" class="btn btn-primary">Add <i class="fa fa-plus"></i>
+                        </button>
+                        @endif
                         <label onclick="myFunction()" style="float: right;">
                             <img src="assets/images/ver.png" width="30"/>
                             View Logs
@@ -59,6 +62,9 @@
                                     <td>
                                         <a href="#" style="font-size: 20px;" class="btn-edit">
                                             <i class="fa fa-edit" style="vertical-align: middle;"></i>
+                                        </a>
+                                        <a href="#" style="font-size: 20px;" class="btn-delete">
+                                            <i class="fa fa-trash" style="vertical-align: middle;"></i>
                                         </a>
                                     </td>
                                 @endif
@@ -303,6 +309,7 @@
 
             // Ajax for download file
             $('.btn-edit').click(function () {
+                $("#file-dialog .panel-title").html('Edit Download File');
                 var tr = $(this).closest('tr');
                 $('#file-id').val($(tr).attr('file-id'));
                 $('#file-name').val($(tr).find('.label-name').text());
@@ -317,6 +324,27 @@
                     preloader: false,
                     modal: true,
                 });
+            });
+
+            $('.btn-delete').click(function () {
+                var tr = $(this).closest('tr');
+                if(confirm("Are you sure to delete this file?")){
+                    showLoading();
+                    $.ajax({
+                        url: '/downloads/delete/' + tr.attr('file-id'),
+                        method: 'DELETE',
+                        success: function (res) {
+                            hideLoading();
+                            toastr.success("Success");
+                            tr.remove();
+                        },
+                        error: function(res) {
+                            hideLoading();
+                            toastr.warning("Something failed");
+                        }
+                    });
+
+                }
             });
 
             $('.dialog-ok').click(function () {
@@ -335,6 +363,9 @@
                         update_date: fileUpdateDate,
                     },
                     success: function (res) {
+                        if(res['new']){
+                            window.history.go();
+                        }
                         var fields = $('tr[file-id=' + fileId + '] td');
                         $(fields[0]).html(fileName);
                         $(fields[1]).html(fileDescription);
@@ -351,6 +382,24 @@
             });
             $(".dialog-cancel").click(function () {
                 $.magnificPopup.close();
+            });
+
+            $("#addTool").click(function() {
+                $("#file-dialog .panel-title").html('Add Download File');
+                $('#file-id').val("");
+                $('#file-name').val("");
+                $('#file-description').val("");
+                $('#file-path').val("");
+                $('#file-update-date').datepicker('setDate', '');
+
+                $.magnificPopup.open({
+                    items: {
+                        src: '#file-dialog',
+                        type: 'inline'
+                    },
+                    preloader: false,
+                    modal: true,
+                });
             });
         }).apply(this, [jQuery]);
     </script>

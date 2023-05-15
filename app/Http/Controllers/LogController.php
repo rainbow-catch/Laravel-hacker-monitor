@@ -144,6 +144,9 @@ class LogController extends Controller
             }
         }
         ftp_close($conn);
+        usort($files, function($a, $b) {
+            return $a['modify'] < $b['modify'];
+        });
         return view('logs', [
             'files' => $files,
             'contents' => $contents,
@@ -231,7 +234,6 @@ class LogController extends Controller
             unlink(realpath($localFile));
 
         ftp_delete($conn, $serverFile);
-        unlink($localFile);
         ftp_close($conn);
         return response()->json('success');
     }

@@ -155,6 +155,11 @@ class ConnectLogController extends Controller
             }
         }
         ftp_close($conn);
+
+        usort($files, function($a, $b) {
+            return $a['modify'] < $b['modify'];
+        });
+
         return view('cnlogs', [
             'files' => $files,
             'contents' => $contents,
@@ -185,9 +190,8 @@ class ConnectLogController extends Controller
         $serverFile = '/Connect/'.$logfile;
 
         @file_put_contents($localFile, '');
-        ftp_delete($conn, $serverFile, $localFile, FTP_BINARY);
+        ftp_put($conn, $serverFile, $localFile, FTP_BINARY);
 
-        unlink($localFile);
         ftp_close($conn);
 
         return response()->json('success');
