@@ -14,7 +14,17 @@
                         <text style="font-size: 20px" class="ml-md"></text>
                     </h1>
                     <br/>
-                    <div class="col-md-6">
+                    <div class="col-md-3">
+                        <div class="row mt-md">
+                            <label class="col-md-4">Avatar Preview:</label>
+                            <div class="col-md-8 text-left">
+                                <div class="custom-avatar" style="width:100px; height:100px;">
+                                    <img id="avatar-preview" src="{{ $user->avatar }}" alt="{{ $user->avatar }}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
                         <div class="row mt-md">
                             <label class="col-md-4">License IP: </label>
                             <div class="col-md-8 text-left">
@@ -56,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="row mt-md">
                             <label class="col-md-4">Password: </label>
                             <div class="col-md-8 text-left">
@@ -71,13 +81,6 @@
                             <label class="col-md-4">Icon image URL: </label>
                             <div class="col-md-8 text-left">
                                 <input class="form-control" id="input-avatar" value="{{ $user->avatar }}"/>
-                                <div class="pull-right">
-                                    Preview:
-                                    <div style="display:flex; border: solid 1px black; width:100px; height:100px">
-                                        <img id="avatar-preview" src="{{ $user->avatar }}" alt="{{ $user->avatar }}"
-                                             style=" max-height:100%; border: 1px solid gray; max-width: 100%"/>
-                                    </div>
-                                </div>
                                 <div class="mt-md">
                                     <button class="btn btn-primary" id="btn-avatar-save">Save</button>
                                 </div>

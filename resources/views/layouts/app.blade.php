@@ -48,7 +48,27 @@
     <script src="https://cdn.datatables.net/fixedheader/3.2.3/js/dataTables.fixedHeader.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="{{ asset('assets/vendor/modernizr/modernizr.js') }}"></script>
+    <style>
+        .custom-avatar {
+            position: relative;
+            overflow: clip;
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+        }
 
+        .custom-avatar img {
+            width: unset !important;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 0;
+        }
+    </style>
 </head>
 <body>
 <section class="body">
@@ -68,8 +88,9 @@
         <div class="header-right">
             <div id="userbox" class="userbox mt-sm">
                 <a href="#" data-toggle="dropdown">
-                    <figure class="profile-picture">
-                        <img src="{{ Auth::user()->avatar }}" alt="{{ Auth::user()->avatar }}" class="img-circle"
+                    <figure class="profile-picture custom-avatar">
+                        <img src="{{ Auth::user()->avatar }}" alt="{{ Auth::user()->avatar }}"
+                             class="img-circle"
                              data-lock-picture="assets/images/!logged-user.jpg"/>
                     </figure>
                     <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
